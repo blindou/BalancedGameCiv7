@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Constructible_Adjacencies>
+        <Row ConstructibleType="IMPROVEMENT_FISHING_BOAT" YieldChangeId="FarmLoiKaloCulture" RequiresActivation="true"/>
+    </Constructible_Adjacencies>
+    <Warehouse_YieldChanges>
+        <Row ID="HawaiiRiverProductionBG" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_NAVIGABLE_RIVER"/>
+        <Row ID="HawaiiCoastProductionBG" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
+    </Warehouse_YieldChanges>
+</Database>

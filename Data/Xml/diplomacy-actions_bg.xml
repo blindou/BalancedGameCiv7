@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnterStageModifiers>
+        <!-- HIMIKO -->
+        <Row StageType="DIPLOMACY_FRIEND_OF_WA_COMPLETE" ModifierId="PLAYER_DIPLOMACY_FRIEND_OF_WA_COMPLETE" />
+    </EnterStageModifiers>
+</Database>

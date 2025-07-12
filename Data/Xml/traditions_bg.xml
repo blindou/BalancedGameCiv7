@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <TraditionModifiers>
+        <Row TraditionType="TRADITION_KAMBU_MERA" ModifierId="KAMBU_MERA_MOD_WORKER_PRODUCTION"/>
+    </TraditionModifiers>
+</Database>

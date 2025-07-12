@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- ==================================================	-->
+    <!-- Napoleon, Emperor -->
+    <!-- ==================================================	-->
+    <Modifier id="NAPOLEON_MOD_INF_BONUS_HOSTILE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+        <Argument name="RelationshipType">PLAYER_RELATIONSHIP_HOSTILE</Argument>
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+<!--        <Argument name="Tooltip">LOC_TRAIT_LEADER_NAPOLEON_ABILITY_NAME</Argument>-->
+    </Modifier>
+    <!-- ==================================================	-->
+    <!-- Napoleon, ALT -->
+    <!-- ==================================================	-->
+<!--    <Modifier id="NAPOLEON_ALT_MOD_COMBAT_SLOWER_CAV" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">-->
+<!--        <SubjectRequirements>-->
+<!--            <Requirement type="REQUIREMENT_OPPONENT_IS_SLOWER"></Requirement>-->
+<!--        </SubjectRequirements>-->
+<!--        <Argument name="Amount">3</Argument>-->
+<!--        <String context="Preview">LOC_ABILITY_CHEVALER_PREVIEW</String>-->
+<!--    </Modifier>-->
+    <!-- ==================================================	-->
+    <!-- Hatshepsut -->
+    <!-- ==================================================	-->
+    <Modifier id="HATSHEPSUT_MOD_GOLD_FROM_RESOURCES" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_UNIQUE_RESOURCE">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <!-- <Argument name="Tooltip">LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_NAME</Argument> -->
+    </Modifier>
+    <Modifier id="HATSHEPSUT_MOD_GOLD_CULTURE_FROM_RIVER" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER"/>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_GOLD, YIELD_CULTURE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+<!--        <Argument name="Tooltip">LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_NAME</Argument>-->
+    </Modifier>
+    <!-- ==================================================	-->
+    <!-- JOSE -->
+    <!-- ==================================================	-->
+    <Modifier id="PLUS_ONE_STATS_DURING_CELEBRATION_JOSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FOOD, YIELD_PRODUCTION, YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+    </Modifier>
+    <!-- ==================================================	-->
+    <!-- Bolivar -->
+    <!-- ==================================================	-->
+    <Modifier id="BOLIVAR_MOD_COMMANDER_COMMENDATION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+                <Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="UnitPromotionType">PROMOTION_COMMENDATION_ARMY_MERIT</Argument>
+        <Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_COMMENDATION_MERIT</Argument>
+    </Modifier>
+    <Modifier id="BOLIVAR_MOD_CAVALRY_MOVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+                <Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- ==================================================	-->
+    <!-- Trung -->
+    <!-- ==================================================	-->
+    <Modifier id="TRUNG_SCIENCE_PER_COMMANDER_LEVEL" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_UNIT_LEVEL">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+                <Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+    </Modifier>
+
+
+</GameEffects>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="PLAYER_DIPLOMACY_FRIEND_OF_WA_COMPLETE" collection="COLLECTION_OWNER" effect="EFFECT_DAE_GRANT_COOPERATIVE_YIELD_SUPPORT_BASE_PER_TURN">
+        <!-- If you change any value here, also make the same changes in the _DESCRIBE version.  Also update the _INITIAL description in DiplomacyText.xml -->
+        <String context="Name">LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_NAME</String>
+        <Argument name="Tooltip">LOC_DIPLOMACY_PROJECT_FRIEND_OF_WA_NAME</Argument>
+        <Argument name="Percent">15</Argument>
+        <Argument name="TargetPercent">15</Argument>
+        <Argument name="AyalyzeNumTurns">15</Argument>
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+    </Modifier>
+</GameEffects>

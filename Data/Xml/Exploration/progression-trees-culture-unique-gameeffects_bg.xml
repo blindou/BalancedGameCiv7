@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_HI_KOI_RIVER_COMBAT_ATTACH_BG" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+        <OwnerRequirements>
+            <Requirement type="REQUIREMENTSET_TEST_ANY">
+                <Requirement type="REQUIREMENT_PLOT_IS_RIVER">
+                    <Argument name="Navigable">true</Argument>
+                </Requirement>
+                <Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
+                    <Argument name="TerrainType">TERRAIN_COAST</Argument>
+                </Requirement>
+            </Requirement>
+        </OwnerRequirements>
+        <Argument name="Amount">5</Argument>
+        <String context="Preview">LOC_MOD_HI_KOI_RIVER_COMBAT_PREVIEW</String>
+    </Modifier>
+</GameEffects>

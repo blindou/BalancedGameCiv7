@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="TRAIT_MOD_NAVIGABLE_RIVER_RESOURCE_CAP_BBG" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_TRAIT_SONGHAI_ABILITY_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

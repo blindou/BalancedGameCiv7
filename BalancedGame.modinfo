@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="balance_game" version="1.0" xmlns="ModInfo">
+    <Properties>
+        <Name>Balanced Game</Name>
+        <Description>Balanced Game mod for civilization 7</Description>
+        <Authors>Blind</Authors>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <Package>Mod</Package>
+    </Properties>
+    <Dependencies>
+        <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+    </Dependencies>
+    <ActionCriteria>
+        <Criteria id="antiquity-age">
+            <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+        </Criteria>
+        <Criteria id="exploration-age">
+            <AgeInUse>AGE_EXPLORATION</AgeInUse>
+        </Criteria>
+        <Criteria id="modern-age">
+            <AgeInUse>AGE_MODERN</AgeInUse>
+        </Criteria>
+        <Criteria id="always">
+            <AlwaysMet></AlwaysMet>
+        </Criteria>
+    </ActionCriteria>
+    <!-- Leaders -->
+    <ActionGroups>
+        <!-- Global -->
+        <ActionGroup id="game-always" scope="game" criteria="always">
+            <Actions>
+                <UpdateText>
+<!--                    <Item>Localization/Sql/Global.sql</Item>-->
+<!--                    <Item>Localization/Sql/Leader.sql</Item>-->
+                </UpdateText>
+                <UpdateDatabase>
+                    <Item>data/Sql/Global.sql</Item>
+                    <Item>data/Sql/Leader.sql</Item>
+                    <Item>data/Sql/Memento.sql</Item>
+                    <Item>data/Sql/Traditions.sql</Item>
+                    <Item>data/Xml/Leader_bg.xml</Item>
+                    <Item>data/Xml/leaders-gameeffects_bg.xml</Item>
+                    <Item>data/Xml/traditions-gameeffects_bg.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+        <!-- Antiquity -->
+        <ActionGroup id="antiquity-game" scope="game" criteria="antiquity-age">
+            <Actions>
+                <UpdateDatabase>
+                    <Item>data/Sql/Antiquity/Civilizations.sql</Item>
+                    <Item>data/Xml/Antiquity/Civilizations.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+        <!-- Localization -->
+        <ActionGroup id="bg-antiquity-loc-changes" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>20</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateText>
+                    <Item>Localization/Antiquity_LOC.sql</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="bg-explo-loc-changes" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>20</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateText>
+                    <Item>Localization/Exploration_LOC.sql</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="bbg-always-loc-changes" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>21</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateText>
+                    <Item>Localization/Global_LOC.sql</Item>
+                </UpdateText>
+                <UpdateText>
+                    <Item locale="fr_FR">Localization/fr_FR/Text.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+    </ActionGroups>
+    <LocalizedText>
+        <File>Localization/en_US/Text.xml</File>
+        <File>Localization/fr_FR/Text.xml</File>
+    </LocalizedText>
+
+
+</Mod>

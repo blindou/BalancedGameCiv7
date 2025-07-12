@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="KAMBU_MERA_MOD_WORKER_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+        <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+</GameEffects>

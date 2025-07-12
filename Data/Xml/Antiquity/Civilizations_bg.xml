@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <ProgressionTreeNodeUnlocks>
+        <Row ProgressionTreeNodeType="NODE_CIVIC_AQ_KHMER_AMNACH" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+        <Row ProgressionTreeNodeType="NODE_CIVIC_AQ_AKSUM_PERIPLUS_OF_THE_ERYTHRAEAN_SEA" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+    </ProgressionTreeNodeUnlocks>
+</Database>
