@@ -47,7 +47,6 @@ export class Memento extends FxsActivatable {
     }
     setAvailable(isAvailable) {
         this.Root.classList.toggle('opacity-50', !isAvailable);
-        this.shouldPlayErrorSound = !isAvailable;
     }
     updateData() {
         if (this._mementoData) {
@@ -108,7 +107,6 @@ export class MementoEditor extends Panel {
         leftNav.classList.add("self-center");
         leftNav.setAttribute("action-key", "inline-cycle-prev");
         mementoSlotsContainer.appendChild(leftNav);
-        let allSlotsAreLocked = true;
         for (const mementoSlotData of getMementoData()) {
             const mementoSlot = document.createElement("memento-slot");
             mementoSlot.componentCreatedEvent.on(component => component.slotData = mementoSlotData);
@@ -116,19 +114,11 @@ export class MementoEditor extends Panel {
             mementoSlot.addEventListener("focus", this.handleSlotSelected.bind(this, mementoSlot));
             this.mementoSlotEles.push(mementoSlot);
             mementoSlotsContainer.appendChild(mementoSlot);
-            if (!mementoSlotData.isLocked) {
-                allSlotsAreLocked = false;
-            }
         }
         const rightNav = document.createElement("fxs-nav-help");
         rightNav.setAttribute("action-key", "inline-cycle-next");
         rightNav.classList.add("self-center");
         mementoSlotsContainer.appendChild(rightNav);
-        // Hide nav help if all slots are locked as those buttons will be non-functional
-        if (allSlotsAreLocked) {
-            mementoSlotsContainer.removeChild(leftNav);
-            mementoSlotsContainer.removeChild(rightNav);
-        }
         const dividerFiligree = document.createElement("div");
         dividerFiligree.classList.add("memento-shell-line-divider", "h-2", "my-4");
         this.outerSlot.appendChild(dividerFiligree);
@@ -178,7 +168,6 @@ export class MementoEditor extends Panel {
         const leaderName = CreateGameModel.selectedLeader?.name ?? "";
         this.headerText.setAttribute("title", Locale.stylize("LOC_EDIT_MEMENTOS_TITLE", leaderName));
         const closeButton = document.createElement('fxs-close-button');
-        closeButton.classList.add("top-8", "right-4");
         closeButton.addEventListener('action-activate', () => {
             this.playSound('data-audio-activate', 'data-audio-activate-ref');
             this.close();
@@ -187,9 +176,7 @@ export class MementoEditor extends Panel {
             this.filterMementos();
             this.applySelections();
         });
-        if (UI.getViewExperience() != UIViewExperience.Mobile) {
-            this.outerSlot.appendChild(closeButton);
-        }
+        this.Root.appendChild(closeButton);
     }
     onDetach() {
         this.Root.removeEventListener('navigate-input', this.navigateInputListener);
@@ -202,7 +189,7 @@ export class MementoEditor extends Panel {
         NavTray.addOrUpdateGenericCancel();
         NavTray.addOrUpdateShellAction1("LOC_EDIT_MEMENTOS_CONFIRM");
         this.handleSlotSelected(this.mementoSlotEles[0]);
-        FocusManager.setFocus(this.mementoEles[0]);
+        waitForLayout(() => FocusManager.setFocus(this.mementoEles[0]));
     }
     setPanelOptions(_panelOptions) {
         waitForLayout(() => {
@@ -242,7 +229,11 @@ export class MementoEditor extends Panel {
         }
     }
     handleSlotSelected(slot) {
-        if (slot.component.slotData?.isLocked || slot == this.activeSlot) {
+		// edited by xiaoxiao
+        // if (slot.component.slotData?.isLocked || slot == this.activeSlot) {
+        //     return;
+        // }
+        if (slot == this.activeSlot) {
             return;
         }
         if (this.activeSlot) {
@@ -290,7 +281,9 @@ export class MementoEditor extends Panel {
             const memData = mementoComponent?.mementoData;
             const isHidden = memData?.displayType == DisplayType.DISPLAY_HIDDEN;
             mementoComponent?.setHidden(isHidden);
-            mementoComponent?.setAvailable(memData?.displayType == DisplayType.DISPLAY_UNLOCKED && availableMementos.has(memData?.mementoTypeId ?? ""));
+			// edited by xiaoxiao
+            // mementoComponent?.setAvailable(memData?.displayType == DisplayType.DISPLAY_UNLOCKED && availableMementos.has(memData?.mementoTypeId ?? ""));
+            mementoComponent?.setAvailable(true);
         }
     }
     confirmSelections() {

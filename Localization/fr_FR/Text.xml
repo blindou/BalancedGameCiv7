@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MODULE_BG_NAME">
+            <Text>Balanced Game Fr</Text>
+        </Row>
+        <Row Tag="LOC_MODULE_BG_DESCRIPTION">
+            <Text>Balanced mod for civilization 7 FR</Text>
+        </Row>
+    </EnglishText>
+</Database>

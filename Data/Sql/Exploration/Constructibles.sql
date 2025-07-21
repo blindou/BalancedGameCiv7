@@ -1,7 +1,7 @@
 -- Maya
 
 UPDATE ModifierArguments
-SET	Value = 26
+SET	Value = 52, Name = 'Amount'
 WHERE ModifierId = 'MOD_MAYA_UWAYBIL_KUH_PRODUCTION_ON_TECH_COMPLETED' and name = 'PercentCost';
 
 -- Hawaii
@@ -16,5 +16,5 @@ SET YieldChange = 3
 WHERE ConstructibleType = 'IMPROVEMENT_MONASTERY' and YieldType = 'YIELD_SCIENCE';
 
 UPDATE Constructibles
-SET Cost = 155
+SET Cost = 310
 WHERE ConstructibleType = 'IMPROVEMENT_MONASTERY';

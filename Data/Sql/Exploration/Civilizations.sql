@@ -20,7 +20,7 @@ DELETE FROM TraitModifiers
 where ModifierId = 'TRAIT_MOD_NAVIGABLE_RIVER_RESOURCE_CAP' and TraitType = 'TRAIT_SONGHAI_ABILITY';
 
 Update ModifierArguments
-set value = 'MOD_HI_KOI_RIVER_COMBAT_ATTACH_BBG'
+set value = 'MOD_HI_KOI_RIVER_COMBAT_ATTACH_BG'
 where ModifierId = 'MOD_HI_KOI_RIVER_COMBAT' and name = 'ModifierId';
 
 -- Spain
@@ -48,14 +48,14 @@ SET Value = '3'
 WHERE ModifierId = 'XUNLEICHONG_MOD_COMBAT_NO_FEATURE_COMBAT_STRENGTH' and Name = 'Amount';
 
 UPDATE Unit_Stats
-SET RangedCombat = '20'
+SET Range = 1
 where UnitType = 'UNIT_XUNLEICHONG';
 
 UPDATE Unit_Stats
-SET RangedCombat = '25'
+SET Range = 1
 where UnitType = 'UNIT_XUNLEICHONG_2';
 
 UPDATE Unit_Stats
-SET RangedCombat = '30'
+SET Range = 1
 where UnitType = 'UNIT_XUNLEICHONG_3';
 

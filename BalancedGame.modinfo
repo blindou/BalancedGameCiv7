@@ -24,73 +24,124 @@
             <AlwaysMet></AlwaysMet>
         </Criteria>
     </ActionCriteria>
-    <!-- Leaders -->
     <ActionGroups>
+        <!-- Mementos -->
+        <ActionGroup id="shell-unlock_all_mementos" scope="shell" criteria="always">
+            <Actions>
+                <UIScripts>
+                    <Item>ui/shell/create-panels/memento-editor.js</Item>
+                    <Item>ui/shell/create-panels/memento-slot.js</Item>
+                </UIScripts>
+            </Actions>
+        </ActionGroup>
         <!-- Global -->
         <ActionGroup id="game-always" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>50</LoadOrder>
+            </Properties>
             <Actions>
                 <UpdateText>
-<!--                    <Item>Localization/Sql/Global.sql</Item>-->
-<!--                    <Item>Localization/Sql/Leader.sql</Item>-->
+                    <Item>Localization/Sql/Global_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
+                    <Item>data/Sql/Bias.sql</Item>
+                    <Item>data/Sql/Units.sql</Item>
+                    <Item>data/Sql/Civilizations.sql</Item>
                     <Item>data/Sql/Global.sql</Item>
                     <Item>data/Sql/Leader.sql</Item>
                     <Item>data/Sql/Memento.sql</Item>
                     <Item>data/Sql/Traditions.sql</Item>
                     <Item>data/Xml/Leader_bg.xml</Item>
+                    <Item>data/Xml/civilizations_gameeffects_bg.xml</Item>
                     <Item>data/Xml/leaders-gameeffects_bg.xml</Item>
                     <Item>data/Xml/traditions-gameeffects_bg.xml</Item>
+                    <Item>data/Xml/traditions_bg.xml</Item>
+                    <Item>data/Xml/constructibles_bg.xml</Item>
+                    <Item>data/Xml/units_bg.xml</Item>
+                    <Item>data/Xml/units_gameeffects_bg.xml</Item>
                 </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="shell-loc-changes" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>17</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateText>
+                    <Item>Localization/Sql/Global_LOC.sql</Item>
+                </UpdateText>
             </Actions>
         </ActionGroup>
         <!-- Antiquity -->
-        <ActionGroup id="antiquity-game" scope="game" criteria="antiquity-age">
+        <ActionGroup id="bg-antiquity-game" scope="game" criteria="antiquity-age">
+            <Properties>
+                <LoadOrder>51</LoadOrder>
+            </Properties>
             <Actions>
+                <UpdateText>
+                    <Item>Localization/Sql/Antiquity_LOC.sql</Item>
+                </UpdateText>
                 <UpdateDatabase>
+                    <Item>data/Sql/Antiquity/Bias.sql</Item>
+                    <Item>data/Sql/Antiquity/Global.sql</Item>
                     <Item>data/Sql/Antiquity/Civilizations.sql</Item>
-                    <Item>data/Xml/Antiquity/Civilizations.xml</Item>
+                    <Item>data/Sql/Antiquity/Constructibles.sql</Item>
+                    <Item>data/Sql/Antiquity/Leader.sql</Item>
+                    <Item>data/Xml/Antiquity/Civilizations_bg.xml</Item>
+                    <Item>data/Xml/Antiquity/constructibles_bg.xml</Item>
+                    <Item>data/Xml/Antiquity/constructibles_gameeffects_bg.xml</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
-        <!-- Localization -->
-        <ActionGroup id="bg-antiquity-loc-changes" scope="shell" criteria="always">
+        <!-- Exploration -->
+        <ActionGroup id="bg-exploration-game" scope="game" criteria="exploration-age">
             <Properties>
-                <LoadOrder>20</LoadOrder>
+                <LoadOrder>52</LoadOrder>
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Antiquity_LOC.sql</Item>
+                    <Item>Localization/Sql/Exploration_LOC.sql</Item>
                 </UpdateText>
+                <UpdateDatabase>
+                    <Item>data/Sql/Exploration/Civilizations.sql</Item>
+                    <Item>data/Sql/Exploration/Constructibles.sql</Item>
+                    <Item>data/Sql/Exploration/Global.sql</Item>
+                    <Item>data/Sql/Exploration/Leader.sql</Item>
+                    <Item>data/Sql/Exploration/Memento.sql</Item>
+                    <Item>data/Sql/Exploration/Traditions.sql</Item>
+                    <Item>data/Sql/Exploration/Victories.sql</Item>
+                    <Item>data/Xml/Exploration/civilization-gameeffects_bg.xml</Item>
+                    <Item>data/Xml/Exploration/Civilizations_bg.xml</Item>
+                    <Item>data/Xml/Exploration/constructibles_bg.xml</Item>
+                    <Item>data/Xml/Exploration/progression-trees-culture-unique-gameeffects_bg.xml</Item>
+                    <Item>data/Xml/Exploration/progression-trees-culture-unique_bg.xml</Item>
+                </UpdateDatabase>
             </Actions>
         </ActionGroup>
-        <ActionGroup id="bg-explo-loc-changes" scope="shell" criteria="always">
+        <!-- Modern -->
+        <ActionGroup id="bg-modern-game" scope="game" criteria="modern-age">
             <Properties>
-                <LoadOrder>20</LoadOrder>
+                <LoadOrder>53</LoadOrder>
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Exploration_LOC.sql</Item>
+                    <Item>Localization/Sql/Modern_LOC.sql</Item>
                 </UpdateText>
-            </Actions>
-        </ActionGroup>
-        <ActionGroup id="bbg-always-loc-changes" scope="game" criteria="always">
-            <Properties>
-                <LoadOrder>21</LoadOrder>
-            </Properties>
-            <Actions>
-                <UpdateText>
-                    <Item>Localization/Global_LOC.sql</Item>
-                </UpdateText>
-                <UpdateText>
-                    <Item locale="fr_FR">Localization/fr_FR/Text.xml</Item>
-                </UpdateText>
+                <UpdateDatabase>
+                    <Item>data/Sql/Modern/Global.sql</Item>
+                    <Item>data/Sql/Modern/Civilizations.sql</Item>
+                    <Item>data/Sql/Modern/Constructibles.sql</Item>
+                    <Item>data/Sql/Modern/Memento.sql</Item>
+                    <Item>data/Sql/Modern/Leader.sql</Item>
+                    <Item>data/Sql/Modern/Traditions.sql</Item>
+                    <Item>data/Sql/Modern/Units.sql</Item>
+                </UpdateDatabase>
             </Actions>
         </ActionGroup>
     </ActionGroups>
     <LocalizedText>
         <File>Localization/en_US/Text.xml</File>
-        <File>Localization/fr_FR/Text.xml</File>
+<!--        <File>Localization/fr_FR/Text.xml</File>-->
     </LocalizedText>
 
 

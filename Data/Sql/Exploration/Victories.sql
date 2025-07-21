@@ -1,8 +1,8 @@
 -- Treasure fleet
 
-UPDATE ageprogressionmilestones
-SET requiredpathpoints = 15
-where legacypathtype='LEGACY_PATH_EXPLORATION_ECONOMIC' and ageprogressionmilestonetype='ANTIQUITY_ECONOMIC_MILESTONE_2';
-UPDATE ageprogressionmilestones
-SET requiredpathpoints = 20
-where legacypathtype='LEGACY_PATH_EXPLORATION_ECONOMIC' and ageprogressionmilestonetype='ANTIQUITY_ECONOMIC_MILESTONE_3';
+UPDATE AgeProgressionMilestones
+SET	RequiredPathPoints = 15
+WHERE AgeProgressionMilestoneType = 'EXPLORATION_ECONOMIC_MILESTONE_2' and LegacyPathType = 'LEGACY_PATH_EXPLORATION_ECONOMIC';
+UPDATE AgeProgressionMilestones
+SET	RequiredPathPoints = 20
+WHERE AgeProgressionMilestoneType = 'EXPLORATION_ECONOMIC_MILESTONE_3' and LegacyPathType = 'LEGACY_PATH_EXPLORATION_ECONOMIC';

@@ -4,4 +4,7 @@
         <Argument name="YieldType">YIELD_PRODUCTION</Argument>
         <Argument name="Amount">1</Argument>
     </Modifier>
+    <Modifier id="RICHES_OF_THE_DUAT_MOD_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+        <Argument name="AbilityType">ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_LOCATION_BG</Argument>
+    </Modifier>
 </GameEffects>

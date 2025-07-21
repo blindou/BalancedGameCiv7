@@ -2,5 +2,6 @@
 <Database>
     <TraditionModifiers>
         <Row TraditionType="TRADITION_KAMBU_MERA" ModifierId="KAMBU_MERA_MOD_WORKER_PRODUCTION"/>
+        <Row TraditionType="TRADITION_RICHES_OF_THE_DUAT" ModifierId="RICHES_OF_THE_DUAT_MOD_COMBAT_STRENGTH"/>
     </TraditionModifiers>
 </Database>

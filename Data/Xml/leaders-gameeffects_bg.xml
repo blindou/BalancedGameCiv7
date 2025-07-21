@@ -11,19 +11,9 @@
 <!--        <Argument name="Tooltip">LOC_TRAIT_LEADER_NAPOLEON_ABILITY_NAME</Argument>-->
     </Modifier>
     <!-- ==================================================	-->
-    <!-- Napoleon, ALT -->
-    <!-- ==================================================	-->
-<!--    <Modifier id="NAPOLEON_ALT_MOD_COMBAT_SLOWER_CAV" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">-->
-<!--        <SubjectRequirements>-->
-<!--            <Requirement type="REQUIREMENT_OPPONENT_IS_SLOWER"></Requirement>-->
-<!--        </SubjectRequirements>-->
-<!--        <Argument name="Amount">3</Argument>-->
-<!--        <String context="Preview">LOC_ABILITY_CHEVALER_PREVIEW</String>-->
-<!--    </Modifier>-->
-    <!-- ==================================================	-->
     <!-- Hatshepsut -->
     <!-- ==================================================	-->
-    <Modifier id="HATSHEPSUT_MOD_GOLD_FROM_RESOURCES" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_UNIQUE_RESOURCE">
+    <Modifier id="HATSHEPSUT_MOD_GOLD_FROM_RESOURCES" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
         <Argument name="YieldType">YIELD_GOLD</Argument>
         <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
         <!-- <Argument name="Tooltip">LOC_TRAIT_LEADER_HATSHEPSUT_ABILITY_NAME</Argument> -->
@@ -31,6 +21,7 @@
     <Modifier id="HATSHEPSUT_MOD_GOLD_CULTURE_FROM_RIVER" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER"/>
+            <Requirement type="REQUIREMENT_PLOT_RESOURCE_VISIBLE"/>
         </SubjectRequirements>
         <Argument name="YieldType">YIELD_GOLD, YIELD_CULTURE</Argument>
         <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
@@ -43,7 +34,7 @@
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
         </SubjectRequirements>
-        <Argument name="YieldType">YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FOOD, YIELD_PRODUCTION, YIELD_HAPPINESS</Argument>
+        <Argument name="YieldType">YIELD_SCIENCE, YIELD_CULTURE, YIELD_FOOD, YIELD_PRODUCTION, YIELD_DIPLOMACY</Argument>
         <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
     </Modifier>
     <!-- ==================================================	-->
@@ -55,8 +46,8 @@
                 <Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
             </Requirement>
         </SubjectRequirements>
-        <Argument name="UnitPromotionType">PROMOTION_COMMENDATION_ARMY_MERIT</Argument>
-        <Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_COMMENDATION_MERIT</Argument>
+        <Argument name="UnitPromotionType">PROMOTION_ARMY_MOBILITY</Argument>
+        <Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_MANEUVER</Argument>
     </Modifier>
     <Modifier id="BOLIVAR_MOD_CAVALRY_MOVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
         <SubjectRequirements>
@@ -79,5 +70,39 @@
         <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
     </Modifier>
 
+    <!-- ==================================================	-->
+    <!-- Pachacuti -->
+    <!-- ==================================================	-->
+    <Modifier id="PACHACUTI_MOD_QUARTERS_MOUNTAINS_BG" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_IS_QUARTER">
+            </Requirement>
+            <Requirement type="REQUIREMENT_PLOT_ADJACENT_TERRAIN_TYPE_MATCHES">
+                <Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="Amount">1</Argument>
+        <Argument name="YieldType">YIELD_GOLD, YIELD_SCIENCE</Argument>
+        <Argument name="Tooltip">LOC_TRAIT_LEADER_PACHACUTI_ABILITY_NAME</Argument>
+    </Modifier>
+    <!-- ==================================================	-->
+    <!-- Machiavelli -->
+    <!-- ==================================================	-->
+    <Modifier id="MACHIAVELLI_MOD_ADJUST_LEVY_UNIT_INDEPENDENT" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
+        <Argument name="ActionType">DIPLOMACY_ACTION_CS_LEVY_UNIT</Argument>
+        <Argument name="Percent">100</Argument>
+<!--        <String context="Description">LOC_TRADITION_XENIA_DESCRIPTION</String>-->
+    </Modifier>
+    <!-- ==================================================	-->
+    <!-- Friedrich -->
+    <!-- ==================================================	-->
+<!--    <Modifier id="FREDERICH_MOD_UNIT_FREE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_UNIT_MAINTENANCE_EFFICIENCY">-->
+<!--        <Argument name="UnitAbilityType">ABILITY_FRIEDRICH_SCIENCE_INFANTRY</Argument>-->
+<!--        <Argument name="Amount">2</Argument>-->
+<!--    </Modifier>-->
+<!--    <Modifier id="FREDERICH_ALT_MOD_UNIT_FREE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_UNIT_MAINTENANCE_EFFICIENCY">-->
+<!--        <Argument name="UnitAbilityType">ABILITY_FRIEDRICH_CULTURAL_INFANTRY</Argument>-->
+<!--        <Argument name="Amount">2</Argument>-->
+<!--    </Modifier>-->
 
 </GameEffects>

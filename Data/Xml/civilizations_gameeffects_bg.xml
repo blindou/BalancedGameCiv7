@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="NILE_LEGACY_MOD_PROD_BG" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">EgyptNileLegacyNavigableRiverProduction</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_NILE_LEGACY_DESCRIPTION</Argument>
+	</Modifier>
+</GameEffects>

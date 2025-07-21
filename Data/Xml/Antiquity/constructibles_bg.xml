@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_NECROPOLIS" ModifierId="MOD_EGYPT_NECROPOLIS_WONDER_PRODUCTION_BG"/>
+	</UniqueQuarterModifiers>
+	<GameModifiers>
+		<Row ModifierId="MOD_EGYPT_NECROPOLIS_WONDER_PRODUCTION_BG"/>
+	</GameModifiers>
+</Database>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
     <TraitModifiers>
-        <Row TraitType="" ModifierId="TRAIT_MOD_HAPPINESS_WAREHOUSE_BBG"/>
         <Row TraitType="TRAIT_SONGHAI_ABILITY" ModifierId="TRAIT_MOD_NAVIGABLE_RIVER_RESOURCE_CAP_BG"/>
     </TraitModifiers>
 </Database>

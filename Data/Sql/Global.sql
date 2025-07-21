@@ -11,13 +11,11 @@ UPDATE WarWearinessEffects
 SET	YieldReductionPerLevel = 1
 WHERE WarWearinessType = 'WAR_WEARINESS_FOUNDED_SELF';
 
--- War support
+UPDATE WarWearinessEffects
+SET	YieldReductionPerLevel = 1
+WHERE WarWearinessType = 'WAR_WEARINESS_FOUNDED_OTHER';
 
-UPDATE DiplomaticActionInfluenceCosts
-SET InfCostSupportIncreaseFlat = 60
-WHERE DiplomacyActionType='DIPLOMACY_ACTION_DECLARE_WAR';
+UPDATE WarWearinessEffects
+SET	YieldReductionPerLevel = 1
+WHERE WarWearinessType = 'WAR_WEARINESS_FOUNDED_WAR_OPPONENT';
 
-
-UPDATE DiplomaticActionInfluenceCosts
-SET InfCostSupportIncreaseFlat = 60
-WHERE DiplomacyActionType='DIPLOMACY_ACTION_DECLARE_FORMAL_WAR';
