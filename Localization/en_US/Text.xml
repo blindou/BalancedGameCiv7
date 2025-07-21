@@ -2,10 +2,10 @@
 <Database>
     <EnglishText>
         <Row Tag="LOC_MODULE_BG_NAME">
-            <Text>Balanced Game</Text>
+            <Text>Multiplayer Balanced Game</Text>
         </Row>
         <Row Tag="LOC_MODULE_BG_DESCRIPTION">
-            <Text>Balanced mod for civilization 7</Text>
+            <Text>Multiplayer Balanced mod for civilization 7</Text>
         </Row>
     </EnglishText>
 </Database>

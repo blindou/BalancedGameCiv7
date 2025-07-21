@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="balance_game" version="1.0" xmlns="ModInfo">
     <Properties>
-        <Name>Balanced Game</Name>
-        <Description>Balanced Game mod for civilization 7</Description>
+        <Name>Multiplayer Balanced Game</Name>
+        <Description>Multiplayer Balanced Game mod for civilization 7</Description>
         <Authors>Blind</Authors>
         <AffectsSavedGames>1</AffectsSavedGames>
         <Package>Mod</Package>
