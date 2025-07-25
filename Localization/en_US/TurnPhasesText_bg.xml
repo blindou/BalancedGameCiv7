@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_GAME_TURNPHASE_TYPE">
+			<Text>Advanced Turn Settings:</Text>
+		</Row>
+
+		<Row Tag="LOC_TURNPHASE_SIMULTANEOUS">
+			<Text>Simultaneous (default)</Text>
+		</Row>
+		<Row Tag="LOC_TURNPHASE_SIMULTANEOUS_DESC">
+			<Text>Default setting for standard simultaneous turns</Text>
+		</Row>
+
+		<Row Tag="LOC_TURNPHASE_SIMULTANEOUS_MBG">
+			<Text>MBG Dynamic Timer</Text>
+		</Row>
+		<Row Tag="LOC_TURNPHASE_SIMULTANEOUS_MBG_DESC">
+			<Text>MBG dynamic timer (60s base + 2s per city + 2s per unit) change by age</Text>
+		</Row>
+
+		<Row Tag="LOC_TURNPHASE_DYNAMIC">
+			<Text>Dynamic</Text>
+		</Row>
+
+		<Row Tag="LOC_GAME_TURNPHASE_DESC">
+			<Text>Simultaneous - Default setting for standard simultaneous turns.[n] [n]
+			Dynamic - Default setting for standard dynamic turns.[n] [n]
+
+				MBG Dynamic Timer - Set Turn Timer to Dynamic[n]
+				- 1 age (60s base + 2s per city + 2s per unit).[n]
+				- 2 age (45s base + 2s per city + 2s per unit).[n]
+				- 3 age (30s base + 2s per city + 2s per unit).[n]
+
+			</Text>
+		</Row>
+	</EnglishText>
+</Database>

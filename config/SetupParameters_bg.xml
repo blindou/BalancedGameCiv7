@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Parameters>
+		<!--
+			Enable TurnPhaseType option in create mp game UI
+		-->
+		<Row ParameterID="TurnPhaseType"
+			Name="LOC_GAME_TURNPHASE_TYPE"
+			Description="LOC_GAME_TURNPHASE_DESC"
+			Domain="StandardTurnPhases"
+			Hash="1"
+			DefaultValue="TURNPHASE_SIMULTANEOUS"
+			ConfigurationGroup="Game"
+			ConfigurationKey="TurnPhaseType"
+			GroupId="GameOptions"
+			SupportsLANMultiplayer="0"
+			SupportsInternetMultiplayer="1"
+			SupportsSinglePlayer="0"
+			ChangeableAfterGameStart="0"
+			SortIndex="41"/>
+
+	</Parameters>
+
+	<!-- Add domain values for the new turn phases -->
+	<DomainValues>
+		<!-- Add new turn phase options to the StandardTurnPhases domain -->
+		<Row Domain="StandardTurnPhases" Value="TURNPHASE_SIMULTANEOUS_MBG" Name="LOC_TURNPHASE_SIMULTANEOUS_MBG" Description="LOC_TURNPHASE_SIMULTANEOUS_MBG_DESC" SortIndex="50"/>
+	</DomainValues>
+</Database>

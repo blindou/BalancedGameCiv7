@@ -25,12 +25,37 @@
         </Criteria>
     </ActionCriteria>
     <ActionGroups>
+        <!-- Timer -->
+        <ActionGroup id="bg-turn_timer_changes(game)" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateDatabase>
+                    <Item>Data/xml/turnPhases_bg.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="bg-turn_timer_changes(shell)" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>11</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateDatabase>
+                    <Item>config/SetupParameters_bg.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+                    <!-- Can do it with sql, but this is lower effort -->
+                    <Item>Localization/en_US/TurnPhasesText_bg.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
         <!-- Mementos -->
         <ActionGroup id="shell-unlock_all_mementos" scope="shell" criteria="always">
             <Actions>
                 <UIScripts>
-                    <Item>UI/shell/create-panels/memento-editor.js</Item>
-                    <Item>UI/shell/create-panels/memento-slot.js</Item>
+                    <Item>UI/Shell/create-panels/memento-editor.js</Item>
+                    <Item>UI/Shell/create-panels/memento-slot.js</Item>
                 </UIScripts>
             </Actions>
         </ActionGroup>
@@ -41,7 +66,7 @@
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Sql/Global_LOC.sql</Item>
+                    <Item>Localization/sql/Global_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Sql/Bias.sql</Item>
@@ -68,7 +93,7 @@
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Sql/Global_LOC.sql</Item>
+                    <Item>Localization/sql/Global_LOC.sql</Item>
                 </UpdateText>
             </Actions>
         </ActionGroup>
@@ -79,7 +104,7 @@
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Sql/Antiquity_LOC.sql</Item>
+                    <Item>Localization/sql/Antiquity_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Sql/Antiquity/Bias.sql</Item>
@@ -100,7 +125,7 @@
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Sql/Exploration_LOC.sql</Item>
+                    <Item>Localization/sql/Exploration_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Sql/Exploration/Civilizations.sql</Item>
@@ -125,7 +150,7 @@
             </Properties>
             <Actions>
                 <UpdateText>
-                    <Item>Localization/Sql/Modern_LOC.sql</Item>
+                    <Item>Localization/sql/Modern_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Sql/Modern/Global.sql</Item>

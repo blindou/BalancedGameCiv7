@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- First file: TurnPhases.xml -->
+<Database>
+    <Types>
+        <Row Type="TURNSEG_SINGLEPHASE_MBG" Kind="KIND_TURNSEGMENT"/>
+    </Types>
+
+    <!-- Define the turn segments with the specific time parameters -->
+    <TurnSegments>
+        <!-- MBG timer: 60 seconds base, 2 seconds per city, 2 seconds per unit -->
+        <Row TurnSegmentType="TURNSEG_SINGLEPHASE_MBG" Name="" Sound="Play_MP_Strategic_Turn_Start" AllowStrategicCommands="true" AllowTacticalCommands="true" TimeLimit_Base="60" TimeLimit_PerCity="2" TimeLimit_PerUnit="2"/>
+    </TurnSegments>
+
+    <!-- Define the turn phases that combine the segments -->
+    <TurnPhases>
+        <Row TurnPhaseType="TURNPHASE_SIMULTANEOUS_MBG" PhaseOrder="0" TurnMode="TURNMODE_SIMULTANEOUS" ActiveSegmentType="TURNSEG_SINGLEPHASE_MBG"/>
+    </TurnPhases>
+</Database>
