@@ -25,6 +25,22 @@
         </Criteria>
     </ActionCriteria>
     <ActionGroups>
+        <ActionGroup id="bg-memento-slot" scope="shell" criteria="always">
+            <Actions>
+                <Properties>
+                    <LoadOrder>1001</LoadOrder>
+                </Properties>
+                <ImportFiles>
+                    <Item>Ui/Shell/create-panels/leader-select-model.js</Item>
+                    <Item>UI/Shell/mp-staging/model-mp-staging-new.js</Item>
+                </ImportFiles>
+                <UpdateDatabase>
+                    <Item>config/config.xml</Item>
+                    <Item>config/unlockableRewards.xml</Item>
+                    <Item>config/metaprogression.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
         <!-- Timer -->
         <ActionGroup id="bg-turn_timer_changes(game)" scope="game" criteria="always">
             <Properties>

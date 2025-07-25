@@ -18,7 +18,7 @@
 			SupportsSinglePlayer="0"
 			ChangeableAfterGameStart="0"
 			SortIndex="41"/>
-
+		<Row ParameterID="PlayerMementoMinorSlot2" Name="LOC_PLAYER_MEMENTOS" Description="LOC_MEMENTOS_GENERAL_DESCRIPTION" Domain="StandardMementos" Hash="0" ConfigurationGroup="Player" ConfigurationKey="MinorMemento2" ValueConfigurationKey="MinorMemento2Value" GroupId="PlayerOptions" SortIndex="3032"/>
 	</Parameters>
 
 	<!-- Add domain values for the new turn phases -->

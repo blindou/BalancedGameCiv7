@@ -4,7 +4,7 @@
  * @description Displays information for a given memento slot
  */
 import { FxsActivatable } from "/core/ui/components/fxs-activatable.js";
-import { MementoSlotType } from "/core/ui/shell/create-panels/leader-select-model.js";
+import { MementoSlotType } from "/Ui/Shell/create-panels/leader-select-model.js";
 export const MementoSlotSelectedEventName = 'memento-slot-selected';
 export class MementoSlot extends FxsActivatable {
 	set slotData(value) {

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database xmlns="UnlockableRewards">
+	<Rewards>
+		<Row GameItemID="MEMENTO_SLOT_3" DNAItemID="5aa054288c834ba7bf3ca9beb8b740bb" CustomData="prof_memento" Type="UNLOCKABLEREWARD_TYPE_SLOT" Name="LOC_MEMENTO_SLOT_2_NAME" Description="LOC_MEMENTO_SLOT_2_DESCRIPTION" SortIndex="300000"/>
+	</Rewards>
+</Database>
