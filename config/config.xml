@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<MementoSlots>
+		<Row Id="5aa054288c834ba7bf3ca9beb8b740bb" Name="MEMENTO_SLOT_3" UnlockTitle="LOC_MEMENTO_SLOT_2_UNLOCK_TITLE" ParameterId="PlayerMementoMinorSlot2"/>
+	</MementoSlots>
+</Database>
