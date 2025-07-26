@@ -38,32 +38,6 @@
 <!--		<Argument name="AllowUniqueOverride">true</Argument>-->
 <!--		<Argument name="Depth">2</Argument>-->
 <!--	</Modifier>-->
-	<Modifier id="FRIEDRICH_MOD_INFANTRY_TECH_BG" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_X_PROGRESSION_TREE_NODES">
-				<Argument name="TechOnly">True</Argument>
-				<Argument name="MasteredOnly">True</Argument>
-				<Argument name="Amount">1</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
-		<Argument name="UnitAbilityType">ABILITY_FRIEDRICH_SCIENCE_INFANTRY</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="AllowUniqueOverride">true</Argument>
-	</Modifier>
-	<Modifier id="FRIEDRICH_ALT_MOD_INFANTRY_CIVIC_BG" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_X_PROGRESSION_TREE_NODES">
-				<Argument name="CultureOnly">True</Argument>
-				<Argument name="MasteredOnly">True</Argument>
-				<Argument name="Amount">1</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
-		<Argument name="UnitAbilityType">ABILITY_FRIEDRICH_CULTURAL_INFANTRY</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="AllowUniqueOverride">true</Argument>
-	</Modifier>
 	<Modifier id="FRIEDRICH_SCIENCE_INFANTRY_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">5</Argument>
 		<String context="Preview">LOC_ABILITY_FRIEDRICH_SCIENCE_INFANTRY_DESCRIPTION</String>
