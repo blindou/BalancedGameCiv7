@@ -56,7 +56,7 @@ INSERT INTO StartBiasTerrains (CivilizationType, TerrainType, Score)
 VALUES ('CIVILIZATION_EGYPT', 'TERRAIN_NAVIGABLE_RIVER', 150);
 
 
--- Egypt: T4 nav river
+-- Egypt: T4 desert
 INSERT INTO StartBiasBiomes (CivilizationType, BiomeType, Score)
 VALUES ('CIVILIZATION_EGYPT', 'BIOME_DESERT', 10);
 
