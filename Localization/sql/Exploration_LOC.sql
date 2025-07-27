@@ -58,6 +58,12 @@ UPDATE LocalizedText
 SET Text = 'Gain 20 Treasure Fleet Points from returning Distant Land Treasures.'
 where Tag = 'LOC_LEGACY_PATH_EXPLORATION_ECONOMIC_DESCRIPTION' and Language = 'en_US';
 
+--Test
+
+UPDATE LocalizedText
+SET Text = 'Every time you research a [icon:RADIAL_TECH] Technology, this Settlement gains 26 [icon:YIELD_PRODUCTION] Production.'
+where Tag = 'LOC_QUARTER_UWAYBIL_KUH_TOOLTIP' and Language = 'en_US';
+
 
 UPDATE LocalizedText
 SET Text = ''

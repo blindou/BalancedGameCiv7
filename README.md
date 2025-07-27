@@ -75,15 +75,10 @@ Contributions are welcome! You can suggest balance changes, report bugs, or subm
 - Test your changes in-game and check `Database.log` for errors.
 - For discussion and help, join the CIVFR Discord community.
 
----
-
-## License
-
-This mod is provided under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## Credits
 
 Special thanks to Firaxis for providing robust modding tools and documentation.
-Thanks to all contributors and playtesters from the CIVFR community, CPL, Arjou, Arkantik and BBG;)
+Thanks to all contributors and playtesters from the CIVFR community, CPL, Arjou, Arkantik, BBG mod and Bear's Third Memento Slot mod ;)

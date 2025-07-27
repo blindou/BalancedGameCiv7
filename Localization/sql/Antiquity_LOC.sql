@@ -43,11 +43,13 @@ UPDATE LocalizedText
 SET Text = '25%[icon:YIELD_GOLD] Gold in Cities adjacent to Coast.'
 where Tag = 'LOC_TRADITION_THRONE_OF_MY_FATHERS_DESCRIPTION' and Language = 'en_US';
 
+
 -- Maya
 
 UPDATE LocalizedText
-SET Text = 'Every time you research a Technology, this Settlement gains[icon:YIELD_PRODUCTION] Production equal to 13/26/52 of its cost.'
+SET Text = 'Every time you research a [icon:RADIAL_TECH] Technology, this Settlement gains 13 [icon:YIELD_PRODUCTION] Production.'
 where Tag = 'LOC_QUARTER_UWAYBIL_KUH_TOOLTIP' and Language = 'en_US';
+
 -- Mauryan
 
 UPDATE LocalizedText
