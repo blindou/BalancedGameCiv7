@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Kinds>
+        <InsertOrIgnore Kind="KIND_UNLOCK"/>
+    </Kinds>
+    <UnlockRewards>
+        <!-- Pantheon -->
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_1"  Name="LOC_PANTHEON_BONUS_1_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_1_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_2"  Name="LOC_PANTHEON_BONUS_2_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_2_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_3"  Name="LOC_PANTHEON_BONUS_3_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_3_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_4"  Name="LOC_PANTHEON_BONUS_4_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_4_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_5"  Name="LOC_PANTHEON_BONUS_5_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_5_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_6"  Name="LOC_PANTHEON_BONUS_6_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_6_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_7"  Name="LOC_PANTHEON_BONUS_7_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_7_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_8"  Name="LOC_PANTHEON_BONUS_8_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_8_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_9"  Name="LOC_PANTHEON_BONUS_9_NAME"  Description="LOC_PANTHEON_REQUNLOCK_BONUS_9_DESCRIPTION"  Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_10" Name="LOC_PANTHEON_BONUS_10_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_10_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_11" Name="LOC_PANTHEON_BONUS_11_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_11_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_12" Name="LOC_PANTHEON_BONUS_12_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_12_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_13" Name="LOC_PANTHEON_BONUS_13_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_13_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_14" Name="LOC_PANTHEON_BONUS_14_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_14_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_15" Name="LOC_PANTHEON_BONUS_15_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_15_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_16" Name="LOC_PANTHEON_BONUS_16_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_16_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_17" Name="LOC_PANTHEON_BONUS_17_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_17_DESCRIPTION" Icon="ICON_VICTORY"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_18" Name="LOC_PANTHEON_BONUS_18_NAME" Description="LOC_PANTHEON_REQUNLOCK_BONUS_18_DESCRIPTION" Icon="ICON_VICTORY"/>
+
+    </UnlockRewards>
+    <RequirementSets>
+        <!-- Pantheon -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_1"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_2"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_3"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_4"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_5"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_6"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_7"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_8"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_9"  RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_10" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_11" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_12" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_13" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_14" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_15" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_16" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_17" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_18" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+    </RequirementSets>
+    <Requirements>
+        <!-- Pantheon -->
+        <Row RequirementId="REQ_PANTHEON_BONUS_1"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_2"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_3"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_4"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_5"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_6"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_7"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_8"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_9"  RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_10" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_11" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_12" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_13" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_14" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_15" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_16" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_17" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_PANTHEON_BONUS_18" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"/>
+        <Row RequirementId="REQ_CULTURE_LEGACY_PATH" RequirementType="REQUIREMENT_PLAYER_HAS_UNLOCK"/>
+    </Requirements>
+    <RequirementArguments>
+        <!-- Pantheon -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_1" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON01"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_1" Name="GOSSIP_CREATE_PANTHEON01" Value="Hash,BeliefType,PANTHEON_BONUS_1"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_1" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 2 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_2" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON02"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_2" Name="GOSSIP_CREATE_PANTHEON02" Value="Hash,BeliefType,PANTHEON_BONUS_2"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_2" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 3 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_3" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON03"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_3" Name="GOSSIP_CREATE_PANTHEON03" Value="Hash,BeliefType,PANTHEON_BONUS_3"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_3" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 4 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_4" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON04"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_4" Name="GOSSIP_CREATE_PANTHEON04" Value="Hash,BeliefType,PANTHEON_BONUS_4"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_4" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 5 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_5" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON05"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_5" Name="GOSSIP_CREATE_PANTHEON05" Value="Hash,BeliefType,PANTHEON_BONUS_5"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_5" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 6 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_6" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON06"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_6" Name="GOSSIP_CREATE_PANTHEON06" Value="Hash,BeliefType,PANTHEON_BONUS_6"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_6" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 7 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_7" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON07"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_7" Name="GOSSIP_CREATE_PANTHEON07" Value="Hash,BeliefType,PANTHEON_BONUS_7"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_7" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 8 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_8" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON08"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_8" Name="GOSSIP_CREATE_PANTHEON08" Value="Hash,BeliefType,PANTHEON_BONUS_8"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_8" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 9 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_9" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON09"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_9" Name="GOSSIP_CREATE_PANTHEON09" Value="Hash,BeliefType,PANTHEON_BONUS_9"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_9" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 10 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_10" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON10"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_10" Name="GOSSIP_CREATE_PANTHEON10" Value="Hash,BeliefType,PANTHEON_BONUS_10"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_10" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 11 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_11" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON11"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_11" Name="GOSSIP_CREATE_PANTHEON11" Value="Hash,BeliefType,PANTHEON_BONUS_11"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_11" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 12 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_12" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON12"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_12" Name="GOSSIP_CREATE_PANTHEON12" Value="Hash,BeliefType,PANTHEON_BONUS_12"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_12" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 13 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_13" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON13"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_13" Name="GOSSIP_CREATE_PANTHEON13" Value="Hash,BeliefType,PANTHEON_BONUS_13"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_13" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 14 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_14" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON14"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_14" Name="GOSSIP_CREATE_PANTHEON14" Value="Hash,BeliefType,PANTHEON_BONUS_14"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_14" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 15 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_15" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON15"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_15" Name="GOSSIP_CREATE_PANTHEON15" Value="Hash,BeliefType,PANTHEON_BONUS_15"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_15" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 16 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_16" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON16"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_16" Name="GOSSIP_CREATE_PANTHEON16" Value="Hash,BeliefType,PANTHEON_BONUS_16"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_16" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 17 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_17" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON17"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_17" Name="GOSSIP_CREATE_PANTHEON17" Value="Hash,BeliefType,PANTHEON_BONUS_17"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_17" Name="Amount" Value="1"/>
+
+            <!-- Pantheon 18 -->
+            <Row RequirementId="REQ_PANTHEON_BONUS_18" Name="GossipTypes" Value="GOSSIP_CREATE_PANTHEON18"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_18" Name="GOSSIP_CREATE_PANTHEON18" Value="Hash,BeliefType,PANTHEON_BONUS_18"/>
+            <Row RequirementId="REQ_PANTHEON_BONUS_18" Name="Amount" Value="1"/>
+        <Row RequirementId="REQ_CULTURE_LEGACY_PATH" Name="UnlockTypes" Value="UNLOCK_WON_CULTURAL_VICTORY_1"/>
+
+    </RequirementArguments>
+    <RequirementSetRequirements>
+        <!-- Pantheons -->
+        <!-- Two lines per pantheon: the belief check and the legacy path requirement -->
+        <!-- 1 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_1"  RequirementId="REQ_PANTHEON_BONUS_1"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_1"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 2 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_2"  RequirementId="REQ_PANTHEON_BONUS_2"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_2"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 3 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_3"  RequirementId="REQ_PANTHEON_BONUS_3"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_3"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 4 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_4"  RequirementId="REQ_PANTHEON_BONUS_4"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_4"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 5 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_5"  RequirementId="REQ_PANTHEON_BONUS_5"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_5"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 6 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_6"  RequirementId="REQ_PANTHEON_BONUS_6"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_6"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 7 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_7"  RequirementId="REQ_PANTHEON_BONUS_7"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_7"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 8 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_8"  RequirementId="REQ_PANTHEON_BONUS_8"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_8"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 9 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_9"  RequirementId="REQ_PANTHEON_BONUS_9"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_9"  RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 10 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_10" RequirementId="REQ_PANTHEON_BONUS_10"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_10" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 11 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_11" RequirementId="REQ_PANTHEON_BONUS_11"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_11" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 12 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_12" RequirementId="REQ_PANTHEON_BONUS_12"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_12" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 13 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_13" RequirementId="REQ_PANTHEON_BONUS_13"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_13" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 14 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_14" RequirementId="REQ_PANTHEON_BONUS_14"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_14" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 15 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_15" RequirementId="REQ_PANTHEON_BONUS_15"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_15" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 16 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_16" RequirementId="REQ_PANTHEON_BONUS_16"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_16" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 17 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_17" RequirementId="REQ_PANTHEON_BONUS_17"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_17" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+        <!-- 18 -->
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_18" RequirementId="REQ_PANTHEON_BONUS_18"/>
+        <Row RequirementSetId="REQSET_PANTHEON_BONUS_18" RequirementId="REQ_CULTURE_LEGACY_PATH"/>
+
+    </RequirementSetRequirements>
+    <UnlockRequirements>
+        <!-- Pantheon -->
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_1"  RequirementSetId="REQSET_PANTHEON_BONUS_1" Description="LOC_UNLOCK_PANTHEON_BONUS_1_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_2"  RequirementSetId="REQSET_PANTHEON_BONUS_2" Description="LOC_UNLOCK_PANTHEON_BONUS_2_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_3"  RequirementSetId="REQSET_PANTHEON_BONUS_3" Description="LOC_UNLOCK_PANTHEON_BONUS_3_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_4"  RequirementSetId="REQSET_PANTHEON_BONUS_4" Description="LOC_UNLOCK_PANTHEON_BONUS_4_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_5"  RequirementSetId="REQSET_PANTHEON_BONUS_5" Description="LOC_UNLOCK_PANTHEON_BONUS_5_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_6"  RequirementSetId="REQSET_PANTHEON_BONUS_6" Description="LOC_UNLOCK_PANTHEON_BONUS_6_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_7"  RequirementSetId="REQSET_PANTHEON_BONUS_7" Description="LOC_UNLOCK_PANTHEON_BONUS_7_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_8"  RequirementSetId="REQSET_PANTHEON_BONUS_8" Description="LOC_UNLOCK_PANTHEON_BONUS_8_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_9"  RequirementSetId="REQSET_PANTHEON_BONUS_9" Description="LOC_UNLOCK_PANTHEON_BONUS_9_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_10" RequirementSetId="REQSET_PANTHEON_BONUS_10" Description="LOC_UNLOCK_PANTHEON_BONUS_10_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_11" RequirementSetId="REQSET_PANTHEON_BONUS_11" Description="LOC_UNLOCK_PANTHEON_BONUS_11_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_12" RequirementSetId="REQSET_PANTHEON_BONUS_12" Description="LOC_UNLOCK_PANTHEON_BONUS_12_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_13" RequirementSetId="REQSET_PANTHEON_BONUS_13" Description="LOC_UNLOCK_PANTHEON_BONUS_13_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_14" RequirementSetId="REQSET_PANTHEON_BONUS_14" Description="LOC_UNLOCK_PANTHEON_BONUS_14_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_15" RequirementSetId="REQSET_PANTHEON_BONUS_15" Description="LOC_UNLOCK_PANTHEON_BONUS_15_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_16" RequirementSetId="REQSET_PANTHEON_BONUS_16" Description="LOC_UNLOCK_PANTHEON_BONUS_16_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_17" RequirementSetId="REQSET_PANTHEON_BONUS_17" Description="LOC_UNLOCK_PANTHEON_BONUS_17_DESCRIPTION"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_18" RequirementSetId="REQSET_PANTHEON_BONUS_18" Description="LOC_UNLOCK_PANTHEON_BONUS_18_DESCRIPTION"/>
+
+    </UnlockRequirements>
+</Database>

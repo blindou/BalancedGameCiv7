@@ -100,6 +100,7 @@
                     <Item>Data/Xml/constructibles_bg.xml</Item>
                     <Item>Data/Xml/units_bg.xml</Item>
                     <Item>Data/Xml/units_gameeffects_bg.xml</Item>
+                    <Item>Data/Xml/unlocks.xml</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
@@ -131,6 +132,7 @@
                     <Item>Data/Xml/Antiquity/Civilizations_bg.xml</Item>
                     <Item>Data/Xml/Antiquity/constructibles_bg.xml</Item>
                     <Item>Data/Xml/Antiquity/constructibles_gameeffects_bg.xml</Item>
+                    <Item>Data/Xml/Antiquity/unlocks.xml</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
@@ -156,6 +158,8 @@
                     <Item>Data/Xml/Exploration/constructibles_bg.xml</Item>
                     <Item>Data/Xml/Exploration/progression-trees-culture-unique-gameeffects_bg.xml</Item>
                     <Item>Data/Xml/Exploration/progression-trees-culture-unique_bg.xml</Item>
+                    <Item>Data/Xml/Exploration/age-transition.xml</Item>
+                    <Item>Data/Xml/Exploration/age-transition-gameeffects.xml</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
