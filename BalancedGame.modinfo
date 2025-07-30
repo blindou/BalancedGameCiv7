@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="balance_game" version="1.0.3" xmlns="ModInfo">
+<Mod id="balance_game" version="1.0.4" xmlns="ModInfo">
     <Properties>
         <Name>Multiplayer Balanced Game</Name>
         <Description>Multiplayer Balanced Game mod for civilization 7</Description>
