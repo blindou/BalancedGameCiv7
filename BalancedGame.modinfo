@@ -180,6 +180,7 @@
                     <Item>Data/Sql/Modern/Leader.sql</Item>
                     <Item>Data/Sql/Modern/Traditions.sql</Item>
                     <Item>Data/Sql/Modern/Units.sql</Item>
+                    <Item>Data/Sql/Modern/Victories.sql</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
