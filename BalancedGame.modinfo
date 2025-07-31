@@ -181,6 +181,7 @@
                     <Item>Data/Sql/Modern/Traditions.sql</Item>
                     <Item>Data/Sql/Modern/Units.sql</Item>
                     <Item>Data/Sql/Modern/Victories.sql</Item>
+                    <Item>Data/Sql/Modern/Progression.sql</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
