@@ -124,6 +124,8 @@
                     <Item>Localization/sql/Antiquity_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
+                    <Item>Data/Xml/Antiquity/resources.xml</Item>
+                    <Item>Data/Xml/Antiquity/resources_gameeffects.xml</Item>
                     <Item>Data/Sql/Antiquity/Bias.sql</Item>
                     <Item>Data/Sql/Antiquity/Global.sql</Item>
                     <Item>Data/Sql/Antiquity/Civilizations.sql</Item>
@@ -146,6 +148,8 @@
                     <Item>Localization/sql/Exploration_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
+                    <Item>Data/Xml/Exploration/resources.xml</Item>
+                    <Item>Data/Xml/Exploration/resources_gameeffects.xml</Item>
                     <Item>Data/Sql/Exploration/Civilizations.sql</Item>
                     <Item>Data/Sql/Exploration/Constructibles.sql</Item>
                     <Item>Data/Sql/Exploration/Global.sql</Item>
@@ -173,6 +177,8 @@
                     <Item>Localization/sql/Modern_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
+                    <Item>Data/Xml/Modern/resources.xml</Item>
+                    <Item>Data/Xml/Modern/resources_gameeffects.xml</Item>
                     <Item>Data/Sql/Modern/Global.sql</Item>
                     <Item>Data/Sql/Modern/Civilizations.sql</Item>
                     <Item>Data/Sql/Modern/Constructibles.sql</Item>
