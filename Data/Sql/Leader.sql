@@ -1,6 +1,3 @@
--- Ibn
-INSERT INTO LeaderTraits (LeaderType, TraitType)
-VALUES ('LEADER_IBN_BATTUTA', 'TRAIT_LEADER_ATTRIBUTE_SCIENTIFIC');
 
 -- Machiavelli
 UPDATE ModifierArguments
