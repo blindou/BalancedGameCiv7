@@ -27,9 +27,6 @@
     <ActionGroups>
         <ActionGroup id="bg-memento-slot" scope="shell" criteria="always">
             <Actions>
-                <Properties>
-                    <LoadOrder>1001</LoadOrder>
-                </Properties>
                 <ImportFiles>
                     <Item>UI/Shell/create-panels/leader-select-model.js</Item>
                     <Item>UI/Shell/mp-staging/model-mp-staging-new.js</Item>
@@ -43,9 +40,6 @@
         </ActionGroup>
         <!-- Timer -->
         <ActionGroup id="bg-turn_timer_changes(game)" scope="game" criteria="always">
-            <Properties>
-                <LoadOrder>10</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateDatabase>
                     <Item>Data/Xml/turnPhases_bg.xml</Item>
@@ -53,9 +47,6 @@
             </Actions>
         </ActionGroup>
         <ActionGroup id="bg-turn_timer_changes(shell)" scope="shell" criteria="always">
-            <Properties>
-                <LoadOrder>11</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateDatabase>
                     <Item>config/SetupParameters_bg.xml</Item>
@@ -77,9 +68,6 @@
         </ActionGroup>
         <!-- Global -->
         <ActionGroup id="game-always" scope="game" criteria="always">
-            <Properties>
-                <LoadOrder>50</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Global_LOC.sql</Item>
@@ -105,9 +93,6 @@
             </Actions>
         </ActionGroup>
         <ActionGroup id="shell-loc-changes" scope="shell" criteria="always">
-            <Properties>
-                <LoadOrder>17</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Global_LOC.sql</Item>
@@ -116,9 +101,6 @@
         </ActionGroup>
         <!-- Antiquity -->
         <ActionGroup id="bg-antiquity-game" scope="game" criteria="antiquity-age">
-            <Properties>
-                <LoadOrder>51</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Antiquity_LOC.sql</Item>
@@ -135,14 +117,13 @@
                     <Item>Data/Xml/Antiquity/constructibles_bg.xml</Item>
                     <Item>Data/Xml/Antiquity/constructibles_gameeffects_bg.xml</Item>
                     <Item>Data/Xml/Antiquity/unlocks.xml</Item>
+                    <Item>Data/Xml/Antiquity/progression-trees-tech.xml</Item>
+                    <Item>Data/Xml/Antiquity/progression-trees-tech-gameeffects.xml</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
         <!-- Exploration -->
         <ActionGroup id="bg-exploration-game" scope="game" criteria="exploration-age">
-            <Properties>
-                <LoadOrder>52</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Exploration_LOC.sql</Item>
@@ -169,9 +150,6 @@
         </ActionGroup>
         <!-- Modern -->
         <ActionGroup id="bg-modern-game" scope="game" criteria="modern-age">
-            <Properties>
-                <LoadOrder>53</LoadOrder>
-            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Modern_LOC.sql</Item>

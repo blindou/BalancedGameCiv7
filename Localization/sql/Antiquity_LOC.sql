@@ -119,6 +119,9 @@ where Tag = 'LOC_TRADITION_QUINQUEREME_DESCRIPTION' and Language = 'en_US';
 UPDATE LocalizedText
 SET Text = '+60% [icon:YIELD_GOLD] Gold from Mining Towns. +60% [icon:YIELD_FOOD] Food from Fishing or Farming Towns.'
 where Tag = 'LOC_TRADITION_SUFFETES_DESCRIPTION' and Language = 'en_US';
+INSERT OR REPLACE INTO LocalizedText
+        (Language, Tag, Text) VALUES
+       ('en_US', 'LOC_MOD_TECH_AQ_FISHING_BOAT_PROD_DESCRIPTION', '+1[icon:YIELD_PRODUCTION] production on Fishing Boats.');
 
 
 UPDATE LocalizedText

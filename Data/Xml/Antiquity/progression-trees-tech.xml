@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <ProgressionTreeNodeUnlocks>
+        <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_MODIFIER" TargetType="MOD_TECH_AQ_FISHING_BOAT_PROD" UnlockDepth="1"/>
+        <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_MODIFIER" TargetType="MOD_TECH_AQ_COAST_PROD" UnlockDepth="1" Hidden="true"/>
+        <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_MODIFIER" TargetType="MOD_TECH_AQ_REEF_PROD" UnlockDepth="1" Hidden="true"/>
+        <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_MODIFIER" TargetType="MOD_TECH_AQ_COLD_REEF_PROD" UnlockDepth="1" Hidden="true"/>
+        <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_MODIFIER" TargetType="MOD_TECH_AQ_NAVIGABLE_RIVER_PROD" UnlockDepth="1" Hidden="true"/>
+    </ProgressionTreeNodeUnlocks>
+</Database>
