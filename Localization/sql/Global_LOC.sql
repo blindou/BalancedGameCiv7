@@ -482,6 +482,14 @@ INSERT OR REPLACE INTO LocalizedText
 		(Tag,				Language,	Text)
 	VALUES	('LOC_NILE_LEGACY_NAME',	'en_US',	'Nile Legacy');
 
+UPDATE LocalizedText
+SET Text = 'Land units receive +3 combat strength in friendly territory.'
+WHERE Tag = 'LOC_TRADITION_RICHES_OF_THE_DUAT_DESCRIPTION';
+
+UPDATE LocalizedText
+SET Text = '+3 combat strength in friendly territory.'
+WHERE Tag = 'LOC_ABILITY_EGYPT_COMBAT_PREVIEW';
+
 -- Russia
 
 UPDATE LocalizedText

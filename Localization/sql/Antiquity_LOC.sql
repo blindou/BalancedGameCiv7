@@ -3,15 +3,6 @@
 -- Egypt
 
 
-UPDATE LocalizedText
-SET Text = 'Land units receive +3 combat strength in friendly territory.'
-WHERE Tag = 'LOC_TRADITION_RICHES_OF_THE_DUAT_DESCRIPTION';
-
-UPDATE LocalizedText
-SET Text = '+3 combat strength in friendly territory.'
-WHERE Tag = 'LOC_ABILITY_EGYPT_COMBAT_PREVIEW';
-
-
 
 UPDATE LocalizedText
 SET Text = 'Grants 100[icon:YIELD_GOLD] Gold (on Standard Speed) when any Wonder is completed in this Settlement. +25% wonder production.'
