@@ -59,7 +59,7 @@
         <String context="Preview">LOC_ABILITY_EGYPT_COMBAT_PREVIEW</String>
     </Modifier>
 	<Modifier id="NAPOLEON_ALT_MOD_COMBAT_SLOWER_BG" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
 			<Requirement type="REQUIREMENT_OPPONENT_IS_SLOWER" />
 			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
 		</SubjectRequirements>
