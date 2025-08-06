@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <MementoModifiers>
+        <Row MementoType="MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT" ModifierId="MEMENTO_CATHERINE_POTEMKINS_ADD_MOB_MODIFIER"/>
+    </MementoModifiers>
+</Database>

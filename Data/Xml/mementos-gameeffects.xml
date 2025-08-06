@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MEMENTO_CATHERINE_POTEMKINS_ADD_MOB_MODIFIER" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+                <Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="UnitPromotionType">PROMOTION_ARMY_MOBILITY</Argument>
+        <Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_MANEUVER</Argument>
+    </Modifier>
+</GameEffects>
