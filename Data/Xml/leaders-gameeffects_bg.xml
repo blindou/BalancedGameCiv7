@@ -141,4 +141,7 @@
         <Argument name="Amount">60</Argument>
         <Argument name="Tooltip">LOC_TRAIT_LEADER_ASHOKA_ALT_ABILITY_NAME</Argument>
     </Modifier>
+    <Modifier id="HARRIET_TUBMAN_MOD_MIGRANT_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ON_SUCCESSFUL_UNDETECTED_ESPIONAGE_ACTION">
+        <Argument name="UnitType">UNIT_MIGRANT</Argument>
+    </Modifier>
 </GameEffects>
