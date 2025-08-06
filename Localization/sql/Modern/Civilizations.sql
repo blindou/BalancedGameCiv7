@@ -1,10 +1,4 @@
--- Bomber
-
-UPDATE LocalizedText
-SET Text = ''
-where Tag = '' and Language = 'en_US';
-
---Test
+-- MAYA
 
 UPDATE LocalizedText
 SET Text = 'Every time you research a [icon:RADIAL_TECH] Technology, this Settlement gains 52 [icon:YIELD_PRODUCTION] Production.'

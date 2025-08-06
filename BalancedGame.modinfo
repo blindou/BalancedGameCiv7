@@ -70,7 +70,10 @@
         <ActionGroup id="game-always" scope="game" criteria="always">
             <Actions>
                 <UpdateText>
-                    <Item>Localization/sql/Global_LOC.sql</Item>
+                    <Item>Localization/sql/Civilizations.sql</Item>
+                    <Item>Localization/sql/Commander.sql</Item>
+                    <Item>Localization/sql/Leader.sql</Item>
+                    <Item>Localization/sql/Mementos_LOC.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Sql/Bias.sql</Item>
@@ -88,6 +91,8 @@
                     <Item>Data/Xml/constructibles_bg.xml</Item>
                     <Item>Data/Xml/units_bg.xml</Item>
                     <Item>Data/Xml/units_gameeffects_bg.xml</Item>
+                    <Item>Data/Xml/mementos.xml</Item>
+                    <Item>Data/Xml/mementos-gameeffects.xml</Item>
                     <Item>Data/Xml/unlocks.xml</Item>
                 </UpdateDatabase>
             </Actions>
@@ -95,7 +100,10 @@
         <ActionGroup id="shell-loc-changes" scope="shell" criteria="always">
             <Actions>
                 <UpdateText>
-                    <Item>Localization/sql/Global_LOC.sql</Item>
+                    <Item>Localization/sql/Civilizations.sql</Item>
+                    <Item>Localization/sql/Commander.sql</Item>
+                    <Item>Localization/sql/Leader.sql</Item>
+                    <Item>Localization/sql/Mementos_LOC.sql</Item>
                 </UpdateText>
             </Actions>
         </ActionGroup>
@@ -103,7 +111,8 @@
         <ActionGroup id="bg-antiquity-game" scope="game" criteria="antiquity-age">
             <Actions>
                 <UpdateText>
-                    <Item>Localization/sql/Antiquity_LOC.sql</Item>
+                    <Item>Localization/sql/Antiquity/Civilizations.sql</Item>
+                    <Item>Localization/sql/Antiquity/Tech.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Xml/Antiquity/resources.xml</Item>
@@ -126,7 +135,7 @@
         <ActionGroup id="bg-exploration-game" scope="game" criteria="exploration-age">
             <Actions>
                 <UpdateText>
-                    <Item>Localization/sql/Exploration_LOC.sql</Item>
+                    <Item>Localization/sql/Exploration/Civilizations.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Xml/Exploration/resources.xml</Item>
@@ -152,7 +161,7 @@
         <ActionGroup id="bg-modern-game" scope="game" criteria="modern-age">
             <Actions>
                 <UpdateText>
-                    <Item>Localization/sql/Modern_LOC.sql</Item>
+                    <Item>Localization/sql/Modern/Civilizations.sql</Item>
                 </UpdateText>
                 <UpdateDatabase>
                     <Item>Data/Xml/Modern/resources.xml</Item>
