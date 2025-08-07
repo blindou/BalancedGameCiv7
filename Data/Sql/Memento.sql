@@ -9,11 +9,6 @@ UPDATE ModifierArguments
 SET Value = '2'
 WHERE ModifierId = 'MEMENTO_FOUNDATION_CORPUS_JURIS_CIVILIS_MODIFIER' AND Name = 'Amount';
 
--- Lantern : 2 migrants appear in the capital when you complete an espionage action undetected (from 1)
-UPDATE ModifierArguments
-SET Value = '2'
-WHERE ModifierId = 'MEMENTO_TUBMAN_LANTERN_MODIFIER' AND Name = 'Amount';
-
 -- Pochteca Backpack : +10 range for all trade routes (from 5)
 UPDATE ModifierArguments
 SET Value = '10'
@@ -202,9 +197,6 @@ WHERE ModifierId = 'MEMENTO_FOUNDATION_EQUESTRIAN_FIGURE_MODIFIER' AND Name = 'P
 
 -- Potemkin’s Sword-Knot : Commanders start with the Mobility promotion
 -- Ajout via XML
-
--- Satchel : Get one extra settler when you build one. +100% to settler production
--- ⚠️ Pour donner un 2e colon.
 
 -- Traveller’s Sandals : Gain 20 of the corresponding yield when spending an attribute point
 UPDATE ModifierArguments

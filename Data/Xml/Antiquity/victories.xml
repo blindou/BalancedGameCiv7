@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Modifiers>
+        <Row ModifierId="VICTORY_ANTIQUITY_CULTURE_ALTAR_SCORING" ModifierType="MODIFIER_PLAYER_ADJUST_BUILDING_SCORING" SubjectRequirementSetId="REQSET_PLAYER_IS_MAJOR"/>
+    </Modifiers>
+    <ModifierArguments>
+        <Row ModifierId="VICTORY_ANTIQUITY_CULTURE_ALTAR_SCORING" Name="BuildingType" Value="BUILDING_ALTAR"/>
+        <Row ModifierId="VICTORY_ANTIQUITY_CULTURE_ALTAR_SCORING" Name="LegacyPathType" Value="LEGACY_PATH_ANTIQUITY_CULTURE"/>
+        <Row ModifierId="VICTORY_ANTIQUITY_CULTURE_ALTAR_SCORING" Name="VP" Value="0.25"/>
+    </ModifierArguments>
+    <PlayerModifiers>
+        <Row ModifierId="VICTORY_ANTIQUITY_CULTURE_ALTAR_SCORING"/>
+    </PlayerModifiers>
+</Database>

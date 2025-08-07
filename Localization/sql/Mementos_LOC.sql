@@ -15,11 +15,6 @@ UPDATE LocalizedText
 SET Text = 'Commanders start with the Mobility promotion.'
 WHERE Tag = 'LOC_MEMENTO_CATHERINE_POTEMKINS_SWORD_KNOT_FUNCTIONAL_DESCRIPTION' AND Language = 'en_US';
 
--- Satchel
-UPDATE LocalizedText
-SET Text = 'Receive one additional Settler when building one, and +100% production toward Settlers.'
-WHERE Tag = 'LOC_MEMENTO_TUBMAN_SATCHEL_FUNCTIONAL_DESCRIPTION' AND Language = 'en_US';
-
 -- Traveller’s Sandals
 UPDATE LocalizedText
 SET Text = 'Gain 20 of the corresponding yield when spending an Attribute Point.'
@@ -30,10 +25,6 @@ UPDATE LocalizedText
 SET Text = 'Gain 800 [icon:YIELD_GOLD] Gold for each settlement returned in a Peace Deal.'
 WHERE Tag = 'LOC_MEMENTO_FOUNDATION_SWORD_BRENNUS_FUNCTIONAL_DESCRIPTION' AND Language = 'en_US';
 
--- Lantern
-UPDATE LocalizedText
-SET Text = '2 Migrants appear in your capital after a successful undetected Espionage action.'
-WHERE Tag = 'LOC_MEMENTO_TUBMAN_LANTERN_FUNCTIONAL_DESCRIPTION' AND Language = 'en_US';
 
 -- Pochteca Backpack
 UPDATE LocalizedText
@@ -108,7 +99,7 @@ WHERE Tag = 'LOC_MEMENTO_HATSHEPSUT_FALSE_BEARD_FUNCTIONAL_DESCRIPTION' AND Lang
 -- Forget-Me-Not
 UPDATE LocalizedText
 SET Text = '+15 [icon:YIELD_HAPPINESS] Happiness per Age in Capital from Narrative Events.'
-WHERE Tag = 'LOC_MEMENTO_RIZAL_FORGET_ME_NOT_NAME' AND Language = 'en_US';
+WHERE Tag = 'LOC_MEMENTO_RIZAL_FORGET_ME_NOT_DESCRIPTION' AND Language = 'en_US';
 
 -- Letter to Adrienne
 UPDATE LocalizedText
@@ -128,7 +119,7 @@ WHERE Tag = 'LOC_MEMENTO_ISABELLA_PADRON_REAL_FUNCTIONAL_DESCRIPTION' AND Langua
 -- Tricolor Cockade
 UPDATE LocalizedText
 SET Text = '+3 [icon:YIELD_CULTURE] and [icon:YIELD_HAPPINESS] per age in Capital per Tradition.'
-WHERE Tag = 'LOC_MEMENTO_LAFAYETTE_TRICOLOUR_COCKADE_NAME' AND Language = 'en_US';
+WHERE Tag = 'LOC_MEMENTO_LAFAYETTE_TRICOLOUR_COCKADE_DESCRIPTION' AND Language = 'en_US';
 
 -- Crown of Napoleon
 UPDATE LocalizedText
