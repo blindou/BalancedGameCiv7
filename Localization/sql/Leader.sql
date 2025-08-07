@@ -72,11 +72,11 @@ WHERE Tag = 'LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_DESCRIPTION' AND Language = 'en_
 -- Friedrich, Oblique
 
 UPDATE LocalizedText
-SET Text = '[icon:UNIT_ARMY_COMMANDER] Army Commanders start with the Merit Commendation, granting them +1 [icon:COMMANDER_RADIUS] Command Radius. Gain an Infantry Unit with +5 [icon:NAR_REW_COMBAT] combat strength when you complete a [icon:RADIAL_TECH] Technology Mastery or construct a [icon:YIELD_SCIENCE] Science Building.'
+SET Text = '[icon:UNIT_ARMY_COMMANDER] Army Commanders start with the Merit Commendation, granting them +1 [icon:COMMANDER_RADIUS] Command Radius. Gain an Infantry Unit with +5 [icon:NAR_REW_COMBAT] combat strength when you construct a [icon:YIELD_SCIENCE] Science Building and one infantry unit when you complete a [icon:RADIAL_TECH] Technology Mastery.'
 WHERE Tag = 'LOC_LEADER_FRIEDRICH_DESCRIPTION' and Language = 'en_US';
 
 UPDATE LocalizedText
-SET Text = '[BLIST][LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]start with the [B]Merit [icon:COMMENDATION] Commendation[/B], granting them [B]+1 [icon:COMMANDER_RADIUS] Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B] with +5 [icon:NAR_REW_COMBAT] [B]combat strength[/B] when you complete a [icon:RADIAL_TECH] [B]Technology Mastery[/B] or construct a [icon:YIELD_SCIENCE] [B]Science [icon:CITY_BUILDING_LIST] Building[/B].[/LIST]'
+SET Text = '[BLIST][LI][icon:UNIT_ARMY_COMMANDER] [B]Army Commanders [/B]start with the [B]Merit [icon:COMMENDATION] Commendation[/B], granting them [B]+1 [icon:COMMANDER_RADIUS] Command Radius[/B].[LI]Gain an [B]Infantry Unit [/B] with +5 [icon:NAR_REW_COMBAT] [B]combat strength[/B] when you construct a [icon:YIELD_SCIENCE] [B]Science [icon:CITY_BUILDING_LIST] Building[/B] complete a [icon:RADIAL_TECH] [B]Technology Mastery[/B].[/LIST]'
 WHERE Tag = 'LOC_TRAIT_LEADER_FRIEDRICH_ABILITY_DESCRIPTION' and Language = 'en_US';
 
 INSERT OR REPLACE INTO LocalizedText
@@ -87,12 +87,12 @@ INSERT OR REPLACE INTO LocalizedText
 --Harriet Tubman
 
 UPDATE LocalizedText
-SET Text = '+100% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ESPIONAGE] Espionage Actions. Gain 5 [icon:WAR_SUPPORT] War Support on all wars declared against you. Units ignore [icon:Action_Move] Movement penalties from Vegetation. BIAS : T4 Vegetated.'
+SET Text = '+100% [icon:YIELD_DIPLOMACY] Influence towards initiating [icon:ESPIONAGE] Espionage Actions. Gain 5 [icon:WAR_SUPPORT] War Support on all wars declared against you. Units ignore [icon:Action_Move] Movement penalties from Vegetation. When a spy mission is succesful without being discovered gain a migrant in the capital. BIAS : T4 Vegetated.'
 WHERE Tag = 'LOC_LEADER_HARRIET_TUBMAN_DESCRIPTION' and Language = 'en_US';
 
 
 UPDATE LocalizedText
-SET Text = '[BLIST][LI][B]+100% [icon:YIELD_DIPLOMACY] Influence [/B]towards initiating [icon:ESPIONAGE] [B]Espionage Actions[/B].[LI]Gain [B]5 [icon:WAR_SUPPORT] War Support [/B]on all [icon:WAR] wars declared against you.[LI]Units ignore [icon:Action_Move] [B]Movement penalties [/B]from [B]Vegetation[/B].[LI][B]BIAS :[/B] T4 Vegetated.[/LIST]'
+SET Text = '[BLIST][LI][B]+100% [icon:YIELD_DIPLOMACY] Influence [/B]towards initiating [icon:ESPIONAGE] [B]Espionage Actions[/B].[LI]Gain [B]5 [icon:WAR_SUPPORT] War Support [/B]on all [icon:WAR] wars declared against you.[LI]Units ignore [icon:Action_Move] [B]Movement penalties [/B]from [B]Vegetation[/B].[LI] When a [icon:ESPIONAGE] spy mission is succesful without being discovered gain a [icon:UNIT_MIGRANT] migrant in the [icon:NOTIFICATION_SELECT_CAPITAL] capital.[LI][B]BIAS :[/B] T4 Vegetated.[/LIST]'
 WHERE Tag = 'LOC_TRAIT_LEADER_HARRIET_TUBMAN_ABILITY_DESCRIPTION' and Language = 'en_US';
 
 -- Hatchepsut
@@ -118,13 +118,12 @@ WHERE Tag = 'LOC_TRAIT_LEADER_HIMIKO_ABILITY_DESCRIPTION' and Language = 'en_US'
 -- Ibn Battuta
 
 UPDATE LocalizedText
-SET Text = 'Gains 2 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Points after the first [icon:RADIAL_CIVICS] Civic in every Age. +1 [icon:Action_Showall] Sight for all Units. Gain a unique [icon:ENDEAVOR] Endeavor called Trade Maps that allows you to gradually see other Leaders claimed territory. Gain a third [icon:YIELD_SCIENCE] [icon:ENDEAVOR] Science Endeavor.'
+SET Text = 'Gains 2 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Points after the first [icon:RADIAL_CIVICS] Civic in every Age. +1 [icon:Action_Showall] Sight for all Units. Gain a unique [icon:ENDEAVOR] Endeavor called Trade Maps that allows you to gradually see other Leaders claimed territory.'
 WHERE Tag = 'LOC_LEADER_IBN_BATTUTA_DESCRIPTION' and Language = 'en_US';
 
 UPDATE LocalizedText
-SET Text = '[BLIST][LI]Gains [B]2 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Points [/B]after the first [icon:RADIAL_CIVICS] [B]Civic [/B]in every Age.[LI][B]+1 [icon:Action_Showall] Sight [/B]for all Units.[LI]Gain a unique [icon:ENDEAVOR] [B]Endeavor [/B]called [B]Trade Maps [/B]that allows you to gradually see other Leaders [B]claimed territory[/B].[LI]Gain a third [icon:YIELD_SCIENCE][icon:ENDEAVOR] [B]Science Endeavor[/B].[/LIST]'
+SET Text = '[BLIST][LI]Gains [B]2 [icon:ATTRIBUTE_WILDCARD] Wildcard Attribute Points [/B]after the first [icon:RADIAL_CIVICS] [B]Civic [/B]in every Age.[LI][B]+1 [icon:Action_Showall] Sight [/B]for all Units.[LI]Gain a unique [icon:ENDEAVOR] [B]Endeavor [/B]called [B]Trade Maps [/B]that allows you to gradually see other Leaders [B]claimed territory[/B].[/LIST]'
 WHERE Tag = 'LOC_TRAIT_LEADER_IBN_BATTUTA_ABILITY_DESCRIPTION' and Language = 'en_US';
-
 -- Isabella
 
 UPDATE LocalizedText
@@ -211,11 +210,11 @@ WHERE Tag = 'LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_DESCRIPTION' AND Language = '
 -- Ashoka, World Conqueror
 
 UPDATE LocalizedText
-SET Text = '+1[icon:YIELD_PRODUCTION] Production for every 5 excess [icon:YIELD_HAPPINESS] Happiness in [icon:YIELD_CITIES] Cities. +10% [icon:YIELD_PRODUCTION] Production in Settlements [icon:NOTIFICATION_CITY_DISTRICT_CONTROL_LOST] not founded by you. Declaring a [icon:WAR] Formal War grants a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] Celebration. +5 [icon:NAR_REW_COMBAT] Combat Strength against [icon:CITY_URBAN] Districts for all Units during a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] Celebration.'
+SET Text = '+1[icon:YIELD_PRODUCTION] Production for every 5 excess [icon:YIELD_HAPPINESS] Happiness in [icon:YIELD_CITIES] Cities. +10% [icon:YIELD_PRODUCTION] Production in Settlements [icon:NOTIFICATION_CITY_DISTRICT_CONTROL_LOST] not founded by you. Declaring a [icon:WAR] Formal War grants a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] Celebration. +5 [icon:NAR_REW_COMBAT] Combat Strength against [icon:CITY_URBAN] Districts for all Units during a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] Celebration.  Military Buildings provide +3 Happiness per Age doubled during a Celebration. +3 Combat Strength for all Units in hostile territory during a Celebration. Conquering a Settlement grants 60 Happiness per Age and 10 production per Age to every cities.'
 WHERE Tag = 'LOC_LEADER_ASHOKA_ALT_DESCRIPTION' AND Language = 'en_US';
 
 UPDATE LocalizedText
-SET Text = '[BLIST][LI][B]+1[icon:YIELD_PRODUCTION] Production [/B]for every [B]5 [/B]excess [icon:YIELD_HAPPINESS] [B]Happiness [/B]in [icon:YIELD_CITIES] [B]Cities[/B].[LI][B]+10% [icon:YIELD_PRODUCTION] Production [/B]in Settlements [icon:NOTIFICATION_CITY_DISTRICT_CONTROL_LOST] not founded by you.[LI]Declaring a [icon:WAR] [B]Formal War [/B]grants a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] [B]Celebration[/B].[LI][B]+5 [icon:NAR_REW_COMBAT] Combat Strength[/B] against [icon:CITY_URBAN] [B]Districts [/B]for all Units during a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] [B]Celebration[/B].[/LIST]'
+SET Text = '[BLIST][LI][B]+1[icon:YIELD_PRODUCTION] Production [/B]for every [B]5 [/B]excess [icon:YIELD_HAPPINESS] [B]Happiness [/B]in [icon:YIELD_CITIES] [B]Cities[/B].[LI][B]+10% [icon:YIELD_PRODUCTION] Production [/B]in Settlements [icon:NOTIFICATION_CITY_DISTRICT_CONTROL_LOST] not founded by you.[LI]Declaring a [icon:WAR] [B]Formal War [/B]grants a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] [B]Celebration[/B].[LI][icon:WAR] [B]Military [icon:CITY_BUILDINGS_LIST] Buildings[/B] provide +3 [icon:YIELD_HAPPINESS] [B]Happiness[/B] per [B]Age[/B] doubled during a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] [B]Celebration[/B].[LI]+3 [icon:NAR_REW_COMBAT] [B]Combat Strength[/B] for all Units in [icon:NOTIFICATION_DISTRICT_ATTACKED] [B]Hostile territory[/B] during a [icon:NOTIFICATION_CHOOSE_GOLDEN_AGE] [B]Celebration[/B].[LI][icon:NOTIFICATION_CITY_DISTRICT_CONTROL_LOST] [B]Conquering[/B] a Settlement grants 60 [icon:YIELD_HAPPINESS] [B]Happiness[/B] and 10 [icon:YIELD_PRODUCTION] [B]Production[/B] per [B]Age[/B] to every [icon:YIELD_CITIES] [B]Cities.[/B][/LIST]'
 WHERE Tag = 'LOC_TRAIT_LEADER_ASHOKA_ALT_ABILITY_DESCRIPTION' AND Language = 'en_US';
 
 -- Himiko, High Shaman
@@ -241,18 +240,17 @@ WHERE Tag = 'LOC_TRAIT_LEADER_BOLIVAR_ABILITY_DESCRIPTION' AND Language = 'en_US
 -- Friedrich, Baroque
 
 UPDATE LocalizedText
-SET Text = 'Gain a [icon:NAR_REW_GREATWORK] Great Work when you capture a Settlement for the first time. +1 [icon:YIELD_CULTURE] Culture per Age on displayed [icon:NAR_REW_GREATWORK] Great Works. Gain an Infantry Unit with +5 [icon:NAR_REW_COMBAT] combat strength when you complete a [icon:RADIAL_CIVICS] Civic Mastery or construct a [icon:YIELD_CULTURE] Culture Building.'
+SET Text = 'Gain a [icon:NAR_REW_GREATWORK] Great Work when you capture a Settlement for the first time. +1 [icon:YIELD_CULTURE] Culture per Age on displayed [icon:NAR_REW_GREATWORK] Great Works. Gain an Infantry Unit with +5 [icon:NAR_REW_COMBAT] combat strength when you construct a [icon:YIELD_CULTURE] Culture Building and an Infantry Unit when you complete a [icon:RADIAL_CIVICS] Civic Mastery'
 WHERE Tag = 'LOC_LEADER_FRIEDRICH_ALT_DESCRIPTION' AND Language = 'en_US';
 
 UPDATE LocalizedText
-SET Text = '[BLIST][LI]Gain a [icon:NAR_REW_GREATWORK] [B]Great Work [/B]when you capture a Settlement for the first time.[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age on displayed [icon:NAR_REW_GREATWORK] [B]Great Works[/B].[LI]Gain an [B]Infantry Unit [/B]with +5 [icon:NAR_REW_COMBAT] [B]combat strength[/B] when you complete a [icon:RADIAL_CIVICS] [B]Civic Mastery[/B] or construct a [icon:YIELD_CULTURE] [B]Culture [icon:CITY_BUILDING_LIST] Building[/B].[/LIST]'
+SET Text = '[BLIST][LI]Gain a [icon:NAR_REW_GREATWORK] [B]Great Work [/B]when you capture a Settlement for the first time.[LI][B]+1 [icon:YIELD_CULTURE] Culture [/B]per Age on displayed [icon:NAR_REW_GREATWORK] [B]Great Works[/B].[LI]Gain an [B]Infantry Unit [/B]with +5 [icon:NAR_REW_COMBAT] [B]combat strength[/B] when you construct a [icon:YIELD_CULTURE] [B]Culture [icon:CITY_BUILDING_LIST] Building[/B] and an Infantry Unit when you complete a [icon:RADIAL_CIVICS] [B]Civic Mastery[/B][/LIST]'
 WHERE Tag = 'LOC_TRAIT_LEADER_FRIEDRICH_ALT_ABILITY_DESCRIPTION' AND Language = 'en_US';
 
 INSERT OR REPLACE INTO LocalizedText
         (Language, Tag, Text) VALUES
         ('en_US', 'LOC_ABILITY_FRIEDRICH_CULTURAL_INFANTRY_NAME', 'Cultural Infantry Training'),
         ('en_US', 'LOC_ABILITY_FRIEDRICH_CULTURAL_INFANTRY_DESCRIPTION', '+5 Combat Strength for infantry units trained through culture buildings or civic mastery.');
-
 -- Xerxes ALT
 
 UPDATE LocalizedText

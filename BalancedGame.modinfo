@@ -6,6 +6,7 @@
         <Authors>Blind</Authors>
         <AffectsSavedGames>1</AffectsSavedGames>
         <Package>Mod</Package>
+        <PackageSortIndex>505</PackageSortIndex>
     </Properties>
     <Dependencies>
         <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -68,7 +69,6 @@
         </ActionGroup>
         <!-- Localization -->
         <ActionGroup id="game-always" scope="game" criteria="always">
-            <Properties><LoadOrder>108</LoadOrder></Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Civilizations.sql</Item>
