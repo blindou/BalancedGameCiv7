@@ -6,5 +6,17 @@
     <Warehouse_YieldChanges>
         <Row ID="HawaiiRiverProductionBG" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_NAVIGABLE_RIVER"/>
         <Row ID="HawaiiCoastProductionBG" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
+        <Row ID="FishingQuayFishingBoatResourceProd" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
+        <Row ID="FishingQuayReefFeatureProd" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_REEF"/>
+        <Row ID="FishingQuayColdReefFeatureProd" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_COLD_REEF"/>
+        <Row ID="FishingQuayCoastTerrainProd" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
+        <Row ID="FishingQuayNavigableRiverProd" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" NavigableRiverInCity="true"/>
     </Warehouse_YieldChanges>
+    <Constructible_WarehouseYields>
+        <Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayFishingBoatResourceProd"/>
+        <Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayReefFeatureProd"/>
+        <Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayColdReefFeatureProd"/>
+        <Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayCoastTerrainProd"/>
+        <Row ConstructibleType="BUILDING_FISHING_QUAY" YieldChangeId="FishingQuayNavigableRiverProd"/>
+    </Constructible_WarehouseYields>
 </Database>

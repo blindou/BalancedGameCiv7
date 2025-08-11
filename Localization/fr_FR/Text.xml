@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-    <EnglishText>
+    <FrenchText>
         <Row Tag="LOC_MODULE_BG_NAME">
-            <Text>Balanced Game Fr</Text>
+            <Text>Jeu Équilibré Multi-Joueur</Text>
         </Row>
         <Row Tag="LOC_MODULE_BG_DESCRIPTION">
-            <Text>Balanced mod for civilization 7 FR</Text>
+            <Text>Mod d'équilibrage multi-joueur pour Civilization VII</Text>
         </Row>
-    </EnglishText>
+        <Row Tag="STRENGTH_SLOWER_ATTACKING">
+            <Text>+3 Force de Combat lors de l'attaque d'unités plus lentes</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_EGYPT_COMBAT_PREVIEW">
+            <Text>+3 Force de Combat en territoire ami</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_ASHOKA_ALT_COMBAT_CELEBRATION_STRENGTH_PREVIEW">
+            <Text>+3 Force de Combat pendant les célébrations</Text>
+        </Row>
+        <Row Tag="LOC_MOD_HI_KOI_RIVER_COMBAT_PREVIEW">
+            <Text>+2 Force de Combat quand adjacent aux rivières</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_LEADER_ASHOKA_ALT_MOD_COMBAT_STRENGTH_NAME">
+            <Text>Force de Combat de Célébration</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_ASHOKA_ALT_MOD_COMBAT_STRENGTH_DESCRIPTION">
+            <Text>+3 Force de Combat pendant les célébrations en territoire hostile</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_NAME_BG">
+            <Text>Force de Combat en Territoire Ami</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_DESCRIPTION_BG">
+            <Text>+3 Force de Combat en territoire ami</Text>
+        </Row>
+    </FrenchText>
 </Database>

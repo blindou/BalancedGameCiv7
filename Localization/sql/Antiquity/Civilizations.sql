@@ -9,7 +9,7 @@ WHERE Tag = 'LOC_ABILITY_EGYPT_COMBAT_PREVIEW';
 
 INSERT OR REPLACE INTO LocalizedText
         (Language, Tag, Text) VALUES
-        ('en_US', 'LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_NAME_BG', 'Friendly Territory Combat Stregnth'),
+        ('en_US', 'LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_NAME_BG', 'Friendly Territory Combat Strength'),
         ('en_US', 'LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_DESCRIPTION_BG', '+3 combat strength in friendly territory.');
 
 -- Maya

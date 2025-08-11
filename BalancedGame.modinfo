@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="balance_game" version="1.0.3" xmlns="ModInfo">
     <Properties>
-        <Name>Multiplayer Balanced Game</Name>
-        <Description>Multiplayer Balanced Game mod for civilization 7</Description>
+        <Name>LOC_MODULE_BG_NAME</Name>
+        <Description>LOC_MODULE_BG_DESCRIPTION</Description>
         <Authors>Blind</Authors>
         <AffectsSavedGames>1</AffectsSavedGames>
         <Package>Mod</Package>
@@ -27,6 +27,9 @@
     </ActionCriteria>
     <ActionGroups>
         <ActionGroup id="bg-memento-slot" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>5000</LoadOrder>
+            </Properties>
             <Actions>
                 <ImportFiles>
                     <Item>UI/Shell/create-panels/leader-select-model.js</Item>
@@ -40,14 +43,20 @@
             </Actions>
         </ActionGroup>
         <!-- Timer -->
-        <ActionGroup id="bg-turn_timer_changes(game)" scope="game" criteria="always">
+        <ActionGroup id="bg-turn_timer_changes_game" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>5001</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateDatabase>
                     <Item>Data/Xml/turnPhases_bg.xml</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
-        <ActionGroup id="bg-turn_timer_changes(shell)" scope="shell" criteria="always">
+        <ActionGroup id="bg-turn_timer_changes_shell" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>5002</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateDatabase>
                     <Item>config/SetupParameters_bg.xml</Item>
@@ -60,6 +69,9 @@
         </ActionGroup>
         <!-- Mementos -->
         <ActionGroup id="shell-unlock_all_mementos" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>5003</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UIScripts>
                     <Item>UI/Shell/create-panels/memento-editor.js</Item>
@@ -68,7 +80,10 @@
             </Actions>
         </ActionGroup>
         <!-- Localization -->
-        <ActionGroup id="game-always" scope="game" criteria="always">
+        <ActionGroup id="game-localization" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>5004</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Civilizations.sql</Item>
@@ -79,7 +94,9 @@
             </Actions>
         </ActionGroup>
         <ActionGroup id="shell-loc-changes" scope="shell" criteria="always">
-            <Properties><LoadOrder>109</LoadOrder></Properties>
+            <Properties>
+                <LoadOrder>5005</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Civilizations.sql</Item>
@@ -90,7 +107,10 @@
             </Actions>
         </ActionGroup>
         <!-- Global -->
-        <ActionGroup id="game-always" scope="game" criteria="always">
+        <ActionGroup id="game-global" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>5006</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateDatabase>
                     <Item>Data/Sql/Bias.sql</Item>
@@ -116,6 +136,9 @@
         </ActionGroup>
         <!-- Antiquity -->
         <ActionGroup id="bg-antiquity-game" scope="game" criteria="antiquity-age">
+            <Properties>
+                <LoadOrder>5007</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Antiquity/Civilizations.sql</Item>
@@ -140,6 +163,9 @@
         </ActionGroup>
         <!-- Exploration -->
         <ActionGroup id="bg-exploration-game" scope="game" criteria="exploration-age">
+            <Properties>
+                <LoadOrder>5008</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Exploration/Civilizations.sql</Item>
@@ -166,6 +192,9 @@
         </ActionGroup>
         <!-- Modern -->
         <ActionGroup id="bg-modern-game" scope="game" criteria="modern-age">
+            <Properties>
+                <LoadOrder>5009</LoadOrder> <!-- assez haut pour passer après les DLC -->
+            </Properties>
             <Actions>
                 <UpdateText>
                     <Item>Localization/sql/Modern/Civilizations.sql</Item>
@@ -173,6 +202,7 @@
                 <UpdateDatabase>
                     <Item>Data/Xml/Modern/resources.xml</Item>
                     <Item>Data/Xml/Modern/resources_gameeffects.xml</Item>
+                    <Item>Data/Xml/Modern/constructibles.xml</Item>
                     <Item>Data/Sql/Modern/Global.sql</Item>
                     <Item>Data/Sql/Modern/Civilizations.sql</Item>
                     <Item>Data/Sql/Modern/Constructibles.sql</Item>
@@ -188,8 +218,6 @@
     </ActionGroups>
     <LocalizedText>
         <File>Localization/en_US/Text.xml</File>
-<!--        <File>Localization/fr_FR/Text.xml</File>-->
+        <File>Localization/fr_FR/Text.xml</File>
     </LocalizedText>
-
-
 </Mod>

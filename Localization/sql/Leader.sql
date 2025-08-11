@@ -296,7 +296,7 @@ WHERE Tag = 'LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_DESCRIPTION' AND Language = '
 
 INSERT OR REPLACE INTO LocalizedText
         (Language, Tag, Text) VALUES
-        ('en_US', 'LOC_ABILITY_NAPOLEON_ALT_MOD_COMBAT_SLOWER_NAME_BG', 'Units faster Combat Stregnth'),
+        ('en_US', 'LOC_ABILITY_NAPOLEON_ALT_MOD_COMBAT_SLOWER_NAME_BG', 'Units faster Combat Strength'),
         ('en_US', 'LOC_ABILITY_NAPOLEON_ALT_MOD_COMBAT_SLOWER_DESCRIPTION_BG', '+3 combat strength in attack  if your units are faster');
 
 -- Shawnee Tecumseh
