@@ -84,7 +84,7 @@ WHERE ModifierId = 'MEMENTO_PACHACUTI_TOPAYAURI_MODIFIER' AND Name = 'Amount';
 
 -- False Beard : +5 culture per Age on Wonders (from 2)
 UPDATE ModifierArguments
-SET Value = '5'
+SET Value = '5', Type = 'ScaleByGameAge'
 WHERE ModifierId = 'MEMENTO_HATSHEPSUT_FALSE_BEARD_MODIFIER' AND Name = 'Amount';
 
 -- Forget-Me-Not : +15 happiness per age in capital from narrative events (from 10)

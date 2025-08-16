@@ -132,7 +132,7 @@
         <Argument name="YieldType">YIELD_PRODUCTION</Argument>
         <Argument name="Amount">10</Argument>
     </Modifier>
-    <Modifier id="ASHOKA_ALT_MOD_CAPTURED_SETTLEMENT_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD">
+    <Modifier id="ASHOKA_ALT_MOD_CAPTURED_SETTLEMENT_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" permanent="true">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
         </SubjectRequirements>

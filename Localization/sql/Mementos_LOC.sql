@@ -179,7 +179,7 @@ WHERE Tag = 'LOC_MEMENTO_BAROQUE_PIANO_FUNCTIONAL_DESCRIPTION' AND Language = 'e
 -- Yata no Kagami
 UPDATE LocalizedText
 SET Text = '+60 [icon:YIELD_CULTURE] Culture per age at the start of every Celebration.'
-WHERE Tag = 'LOC_MEMENTO_JAPAN_YATA_NO_KAGAMI_FUNCTIONAL_DESCRIPTION' AND Language = 'en_US';
+WHERE Tag = 'LOC_MEMENTO_HIMIKO_SHAMAN_YATA_NO_KAGAMI_DESCRIPTION' AND Language = 'en_US';
 
 -- Uraeus
 UPDATE LocalizedText
