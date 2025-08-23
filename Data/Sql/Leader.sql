@@ -67,6 +67,13 @@ UPDATE DynamicModifiers
 SET EffectType = 'EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE'
 WHERE ModifierType = 'HATSHEPSUT_MOD_CULTURE_FROM_RESOURCES_TYPE';
 
+-- Isabella
+
+UPDATE ModifierArguments
+SET	Value = 100
+WHERE ModifierId = 'ISABELLA_MOD_DOUBLE_NATURAL_WONDERS_ABILITY' and Name = 'Percent';
+
+
 -- ASHOKA
 --
 -- DELETE FROM ModifierArguments

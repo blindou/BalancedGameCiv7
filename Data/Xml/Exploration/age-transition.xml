@@ -91,16 +91,26 @@
         <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarRiverHappiness" RequiresActivation="true"/>
     </Constructible_Adjacencies>
     <Adjacency_YieldChanges>
-        <Row ID="AltarUrbanHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
-        <Row ID="AltarQuarterHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentUniqueQuarter="true"/>
-        <Row ID="AltarWonderHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_WONDER"/>
-        <Row ID="AltarMountainHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
-        <Row ID="AltarNaturalWonderHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentNaturalWonder="true"/>
-        <Row ID="AltarVegetatedHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
-        <Row ID="AltarCoastHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
-        <Row ID="AltarLakeHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-        <Row ID="AltarResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
-        <Row ID="AltarRiverHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+        <Row ID="AltarUrbanHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+        <Row ID="AltarQuarterHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentUniqueQuarter="true"/>
+        <Row ID="AltarWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_WONDER"/>
+        <Row ID="AltarMountainHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+        <Row ID="AltarNaturalWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentNaturalWonder="true"/>
+        <Row ID="AltarVegetatedHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
+        <Row ID="AltarCoastHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
+        <Row ID="AltarLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+        <Row ID="AltarResourceHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
+        <Row ID="AltarRiverHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+        <Row ID="AltarUrbanHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+        <Row ID="AltarQuarterHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentUniqueQuarter="true"/>
+        <Row ID="AltarWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_WONDER"/>
+        <Row ID="AltarMountainHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+        <Row ID="AltarNaturalWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentNaturalWonder="true"/>
+        <Row ID="AltarVegetatedHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
+        <Row ID="AltarCoastHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
+        <Row ID="AltarLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+        <Row ID="AltarResourceHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
+        <Row ID="AltarRiverHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
     </Adjacency_YieldChanges>
     <Constructible_WarehouseYields>
         <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarCampGold" RequiresActivation="true"/>
@@ -126,27 +136,27 @@
         <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarHappinessOnResources" RequiresActivation="true"/>
     </Constructible_WarehouseYields>
     <Warehouse_YieldChanges>
-        <Row ID="PantheonAltarCampGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
-        <Row ID="PantheonAltarWoodcutterResourceGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER_RESOURCE"/>
-        <Row ID="PantheonAltarVegetatedFeatureGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_VEGETATED"/>
-        <Row ID="PantheonAltarPastureFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PASTURE"/>
-        <Row ID="PantheonAltarPlantationFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PLANTATION"/>
-        <Row ID="PantheonAltarFloodplainFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_FLOODPLAIN"/>
-        <Row ID="PantheonAltarDesertFloodplainFeatureFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_DESERT_FLOODPLAIN_MINOR"/>
-        <Row ID="PantheonAltarGrasslandFloodplainFeatureFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_GRASSLAND_FLOODPLAIN_MINOR"/>
-        <Row ID="PantheonAltarPlainsFloodplainFeatureFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_PLAINS_FLOODPLAIN_MINOR"/>
-        <Row ID="PantheonAltarTropicalFloodplainFeatureFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_TROPICAL_FLOODPLAIN_MINOR"/>
-        <Row ID="PantheonAltarTundraFloodplainFeatureFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_TUNDRA_FLOODPLAIN_MINOR"/>
-        <Row ID="PantheonAltarFlatTerrainFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_FLAT"/>
-        <Row ID="PantheonAltarFishingBoatResourceProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
-        <Row ID="PantheonAltarReefFeatureProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_REEF"/>
-        <Row ID="PantheonAltarColdReefFeatureProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_COLD_REEF"/>
-        <Row ID="PantheonAltarCoastTerrainProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
-        <Row ID="PantheonAltarNavigableRiverProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" NavigableRiverInCity="true"/>
-        <Row ID="PantheonAltarMineResourceProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
-        <Row ID="PantheonAltarQuarryProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
-        <Row ID="PantheonAltarRoughTerrainProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
-        <Row ID="PantheonAltarWetFeatureProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_WET"/>
-        <Row ID="PantheonAltarHappinessOnResources" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ResourceInCity="true"/>
+        <Row ID="PantheonAltarCampGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
+        <Row ID="PantheonAltarWoodcutterResourceGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER_RESOURCE"/>
+        <Row ID="PantheonAltarVegetatedFeatureGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_VEGETATED"/>
+        <Row ID="PantheonAltarPastureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PASTURE"/>
+        <Row ID="PantheonAltarPlantationFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PLANTATION"/>
+        <Row ID="PantheonAltarFloodplainFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_FLOODPLAIN"/>
+        <Row ID="PantheonAltarDesertFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_DESERT_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarGrasslandFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_GRASSLAND_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarPlainsFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_PLAINS_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarTropicalFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_TROPICAL_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarTundraFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_TUNDRA_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarFlatTerrainFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_FLAT"/>
+        <Row ID="PantheonAltarFishingBoatResourceProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
+        <Row ID="PantheonAltarReefFeatureProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_REEF"/>
+        <Row ID="PantheonAltarColdReefFeatureProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_COLD_REEF"/>
+        <Row ID="PantheonAltarCoastTerrainProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
+        <Row ID="PantheonAltarNavigableRiverProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" NavigableRiverInCity="true"/>
+        <Row ID="PantheonAltarMineResourceProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+        <Row ID="PantheonAltarQuarryProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
+        <Row ID="PantheonAltarRoughTerrainProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
+        <Row ID="PantheonAltarWetFeatureProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_WET"/>
+        <Row ID="PantheonAltarHappinessOnResources" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" ResourceInCity="true"/>
     </Warehouse_YieldChanges>
 </Database>

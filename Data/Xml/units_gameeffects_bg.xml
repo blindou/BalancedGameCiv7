@@ -66,17 +66,6 @@
 		<Argument name="Amount">3</Argument>
 		<String context="Preview">STRENGTH_SLOWER_ATTACKING</String>
 	</Modifier>
-	<Modifier id="ASHOKA_ALT_MOD_COMBAT_STRENGTH_HOSTILE_CELEBRATION_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements type="REQUIREMENTSET_TEST_ANY">
-			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
-			<Requirement type="REQUIREMENT_UNIT_IN_ENEMY_TERRITORY"/>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ASHOKA_ALT_HOSTILE_CELEBRATION_COMBAT_STRENGTH</Argument>
-	</Modifier>
-	<Modifier id="ASHOKA_ALT_MOD_HOSTILE_CELEBRATION_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_ABILITY_ASHOKA_ALT_COMBAT_CELEBRATION_STRENGTH_PREVIEW</String>
-	</Modifier>
 <!--	<Modifier id="MACHIAVELLI_UNIT_CS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">-->
 <!--		<Argument name="Amount">3</Argument>-->
 <!--	</Modifier>-->

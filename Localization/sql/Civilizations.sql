@@ -770,7 +770,7 @@ SET Text = '+60% [icon:YIELD_GOLD] Gold towards purchasing Naval Units. -1 [icon
 where Tag = 'LOC_TRADITION_QUINQUEREME_DESCRIPTION' and Language = 'en_US';
 
 UPDATE LocalizedText
-SET Text = '+20% [icon:YIELD_GOLD] Gold from [icon:PROJECT_TOWN_PRODUCTION] Mining [icon:YIELD_TOWNS] Towns. +20% [icon:YIELD_FOOD] Food from [icon:PROJECT_TOWN_FISHING] Fishing or Farming [icon:YIELD_TOWNS] Towns.'
+SET Text = '+40% [icon:YIELD_GOLD] Gold from [icon:PROJECT_TOWN_PRODUCTION] Mining [icon:YIELD_TOWNS] Towns. +40% [icon:YIELD_FOOD] Food from [icon:PROJECT_TOWN_FISHING] Fishing or Farming [icon:YIELD_TOWNS] Towns.'
 where Tag = 'LOC_TRADITION_SUFFETES_DESCRIPTION' and Language = 'en_US';
 
 

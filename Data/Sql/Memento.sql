@@ -165,9 +165,9 @@ UPDATE ModifierArguments
 SET Value = '20'
 WHERE ModifierId = 'MEMENTO_HATSHEPSUT_URAEUS_MODIFIER' AND Name = 'Percent';
 
--- Lotus Blossom : Gain science & culture per turn equal to 8% of gold income (from 4%)
+-- Lotus Blossom : Gain science & culture per turn equal to 6% of gold income (from 4%)
 UPDATE ModifierArguments
-SET Value = '8'
+SET Value = '6'
 WHERE ModifierId = 'MEMENTO_XERXES_KING_LOTUS_BLOSSOM_MODIFIER' AND Name = 'Percent';
 
 -- Altar Set : +2 culture from specialists (from 1)

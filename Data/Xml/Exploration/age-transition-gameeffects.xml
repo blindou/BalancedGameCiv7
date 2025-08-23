@@ -214,11 +214,15 @@
     <Modifier id="EFFECT_PANTHEON_15" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
         <Argument name="ModifierId">ATTACH_PANTHEON_ALTAR_COAST_ADJACENCY, ATTACH_PANTHEON_ALTAR_LAKE_ADJACENCY, ATTACH_PANTHEON_ALTAR_RIVER_ADJACENCY</Argument>
     </Modifier>
-    <Modifier id="ATTACH_PANTHEON_ALTAR_COAST_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
-        <Argument name="ConstructibleWarehouseYield">AltarCoastHappiness</Argument>
+    <Modifier id="ATTACH_PANTHEON_ALTAR_COAST_ADJACENCY"
+              collection="COLLECTION_PLAYER_CITIES"
+              effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+        <Argument name="ConstructibleAdjacency">AltarCoastHappiness</Argument>
     </Modifier>
-    <Modifier id="ATTACH_PANTHEON_ALTAR_LAKE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_WAREHOUSE_YIELD">
-        <Argument name="ConstructibleWarehouseYield">AltarLakeHappiness</Argument>
+    <Modifier id="ATTACH_PANTHEON_ALTAR_LAKE_ADJACENCY"
+              collection="COLLECTION_PLAYER_CITIES"
+              effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+        <Argument name="ConstructibleAdjacency">AltarLakeHappiness</Argument>
     </Modifier>
     <Modifier id="ATTACH_PANTHEON_ALTAR_RIVER_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
         <Argument name="ConstructibleAdjacency">AltarRiverHappiness</Argument>

@@ -193,7 +193,7 @@ WHERE Tag = 'LOC_MEMENTO_RIZAL_NOLI_ME_TANGERE_FUNCTIONAL_DESCRIPTION' AND Langu
 
 -- Lotus Blossom
 UPDATE LocalizedText
-SET Text = 'Gain [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture equal to 8% of Gold income per turn.'
+SET Text = 'Gain [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture equal to 6% of Gold income per turn.'
 WHERE Tag = 'LOC_MEMENTO_XERXES_KING_LOTUS_BLOSSOM_FUNCTIONAL_DESCRIPTION' AND Language = 'en_US';
 
 -- Altar Set

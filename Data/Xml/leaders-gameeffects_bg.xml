@@ -122,9 +122,6 @@
         <Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
         <String context="Description">LOC_MOD_ASHOKA_ALT_MOD_MILITARY_BUILDING_ADJACENCY_GOLDEN_AGE</String>
     </Modifier>
-    <Modifier id="ASHOKA_ALT_MOD_COMBAT_STRENGTH_HOSTILE_CELEBRATION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-        <Argument name="AbilityType">ASHOKA_ALT_MOD_HOSTILE_CELEBRATION</Argument>
-    </Modifier>
     <Modifier id="ASHOKA_ALT_MOD_CAPTURED_SETTLEMENT_PRODUCTION_TEN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_YIELD" permanent="true">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>

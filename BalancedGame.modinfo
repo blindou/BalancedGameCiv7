@@ -31,10 +31,6 @@
                 <LoadOrder>5000</LoadOrder>
             </Properties>
             <Actions>
-                <ImportFiles>
-                    <Item>UI/Shell/create-panels/leader-select-model.js</Item>
-                    <Item>UI/Shell/mp-staging/model-mp-staging-new.js</Item>
-                </ImportFiles>
                 <UpdateDatabase>
                     <Item>config/config.xml</Item>
                     <Item>config/unlockableRewards.xml</Item>
@@ -70,12 +66,11 @@
         <!-- Mementos -->
         <ActionGroup id="shell-unlock_all_mementos" scope="shell" criteria="always">
             <Properties>
-                <LoadOrder>5003</LoadOrder> <!-- assez haut pour passer après les DLC -->
+                <LoadOrder>1</LoadOrder> <!-- assez haut pour passer après les DLC -->
             </Properties>
             <Actions>
                 <UIScripts>
-                    <Item>UI/Shell/create-panels/memento-editor.js</Item>
-                    <Item>UI/Shell/create-panels/memento-slot.js</Item>
+                    <Item>UI/Shell/create-panels/leader-select-model.js</Item>
                 </UIScripts>
             </Actions>
         </ActionGroup>
@@ -119,6 +114,7 @@
                     <Item>Data/Sql/Global.sql</Item>
                     <Item>Data/Sql/Leader.sql</Item>
                     <Item>Data/Sql/Memento.sql</Item>
+                    <Item>Data/Sql/resources.sql</Item>
                     <Item>Data/Sql/Traditions.sql</Item>
                     <Item>Data/Xml/Leader_bg.xml</Item>
                     <Item>Data/Xml/civilizations_gameeffects_bg.xml</Item>
@@ -204,6 +200,9 @@
                     <Item>Data/Xml/Modern/resources.xml</Item>
                     <Item>Data/Xml/Modern/resources_gameeffects.xml</Item>
                     <Item>Data/Xml/Modern/constructibles.xml</Item>
+                    <Item>Data/Xml/Modern/legacy-path-gameeffects.xml</Item>
+                    <Item>Data/Xml/Modern/victories.xml</Item>
+                    <Item>Data/Xml/Modern/units.xml</Item>
                     <Item>Data/Sql/Modern/Global.sql</Item>
                     <Item>Data/Sql/Modern/Civilizations.sql</Item>
                     <Item>Data/Sql/Modern/Constructibles.sql</Item>

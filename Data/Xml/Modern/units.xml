@@ -1,0 +1,50 @@
+<!-- data/jmk-clone.xml -->
+<Database>
+    <Types>
+        <Row Type="UNIT_JMK_CLONE" Kind="KIND_UNIT"/>
+        <Row Type="GREAT_PERSON_INDIVIDUAL_VICTORY_JMK_CLONE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+    </Types>
+
+    <TypeTags>
+        <Row Type="UNIT_JMK_CLONE" Tag="UNIT_CLASS_GREATPERSON"/>
+        <Row Type="UNIT_JMK_CLONE" Tag="UNIT_CLASS_UNIQUE_GREATPERSON"/>
+    </TypeTags>
+
+    <Units>
+        <Row UnitType="UNIT_JMK_CLONE"
+             Name="LOC_UNIT_JMK_CLONE_NAME"
+             Description="LOC_UNIT_JOHN_MAYNARD_KEYNES_DESCRIPTION"
+             BaseSightRange="1" BaseMoves="8"
+             UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT"
+             Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN"
+             FormationClass="FORMATION_CLASS_CIVILIAN"
+             ZoneOfControl="false"
+             CanTrain="false" CanPurchase="false" CanTriggerDiscovery="false"
+             Teleport="true" AllowTeleportToOtherPlayerCapitals="true"
+             CanBeDamaged="false"
+             VictoryUnit="true"
+             VictoryType="VICTORY_MODERN_ECONOMIC"/>
+    </Units>
+
+    <GreatPersonIndividuals>
+        <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VICTORY_JMK_CLONE"
+             Name="LOC_GREAT_PERSON_INDIVIDUAL_VICTORY_JOHN_MAYNARD_KEYNES_NAME"
+             ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_VICTORY_JOHN_MAYNARD_KEYNES_DESCRIPTION"
+             GreatPersonClassType="GREAT_PERSON_CLASS_VICTORY"
+             AgeType="AGE_MODERN" Gender="M" ActionCharges="99"
+             ActionRequiresOwnedTile="false" ActionRequiresForeignCapital="true"
+             ActionRequiresGoldCost="3000" ScaleGoldCostByRelationship="true"
+             ActionRequiresInfluenceCost="240" ScaleInfluenceCostByRelationship="true"
+             PercentCostReductionPerLegacyPoint="5"
+             ScaleCostsByLegacyPointCardType="CARD_CATEGORY_ECONOMIC"
+             ActionNameTextOverride="LOC_GREATPERSON_ACTION_VICTORY_JOHN_MAYNARD_KEYNES"
+             UnitType="UNIT_JMK_CLONE"/>
+    </GreatPersonIndividuals>
+
+    <GreatPersonVictoryTypeEntries>
+        <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VICTORY_JMK_CLONE"
+             VictoryType="VICTORY_MODERN_ECONOMIC"
+             GreatPersonVictorySource="GREAT_PERSON_VICTORY_SOURCE_CURRENT_PLOT_OWNER"
+             Points="1" MaxPointsPerUse="1"/>
+    </GreatPersonVictoryTypeEntries>
+</Database>
