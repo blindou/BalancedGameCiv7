@@ -6,4 +6,11 @@
 	<GameModifiers>
 		<Row ModifierId="MOD_EGYPT_NECROPOLIS_WONDER_PRODUCTION_BG"/>
 	</GameModifiers>
+	<Warehouse_YieldChanges>
+		<Row ID="AQFishingBoatResourceProduction" Age="AGE_ANTIQUITY" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE" YieldChange="1" YieldType="YIELD_PRODUCTION"/>
+		<Row ID="AQReefFeatureProd" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_REEF"/>
+		<Row ID="AQColdReefFeatureProd" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_COLD_REEF"/>
+		<Row ID="AQCoastTerrainProd" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
+		<Row ID="AQNavigableRiverProd" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="1" NavigableRiverInCity="true"/>
+	</Warehouse_YieldChanges>
 </Database>

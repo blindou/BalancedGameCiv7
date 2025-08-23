@@ -13,13 +13,13 @@ UPDATE ModifierArguments
 SET	Value = 60
 WHERE ModifierId = 'QUINQUEREME_MOD_PURCHASE_RATE_UNITS' and name = 'Percent';
 UPDATE ModifierArguments
-SET	Value = 60
+SET	Value = 40
 WHERE ModifierId = 'SUFFETES_FARM_TOWNS_FOOD' and name = 'Percent';
 UPDATE ModifierArguments
-SET	Value = 60
+SET	Value = 40
 WHERE ModifierId = 'SUFFETES_FISHING_TOWNS_FOOD' and name = 'Percent';
 UPDATE ModifierArguments
-SET	Value = 60
+SET	Value = 40
 WHERE ModifierId = 'SUFFETES_MINING_TOWNS_GOLD' and name = 'Percent';
 
 -- Abasid

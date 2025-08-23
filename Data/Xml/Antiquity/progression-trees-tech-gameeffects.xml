@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_TECH_AQ_FISHING_BOAT_PROD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+        <Argument name="WarehouseYieldChange">AQFishingBoatResourceProduction</Argument>
+        <String context="Description">LOC_MOD_TECH_AQ_FISHING_BOAT_PROD_DESCRIPTION</String>
+    </Modifier>
+    <Modifier id="MOD_TECH_AQ_COAST_PROD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+        <Argument name="WarehouseYieldChange">AQCoastTerrainProd</Argument>
+    </Modifier>
+    <Modifier id="MOD_TECH_AQ_NAVIGABLE_RIVER_PROD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+        <Argument name="WarehouseYieldChange">AQNavigableRiverProd</Argument>
+    </Modifier>
+    <Modifier id="MOD_TECH_AQ_REEF_PROD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+        <Argument name="WarehouseYieldChange">AQReefFeatureProd</Argument>
+    </Modifier>
+    <Modifier id="MOD_TECH_AQ_COLD_REEF_PROD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+        <Argument name="WarehouseYieldChange">AQColdReefFeatureProd</Argument>
+    </Modifier>
+</GameEffects>

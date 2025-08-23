@@ -1,6 +1,3 @@
--- Ibn
-INSERT INTO LeaderTraits (LeaderType, TraitType)
-VALUES ('LEADER_IBN_BATTUTA', 'TRAIT_LEADER_ATTRIBUTE_SCIENTIFIC');
 
 -- Machiavelli
 UPDATE ModifierArguments
@@ -47,11 +44,14 @@ WHERE ModifierId = 'NAPOLEON_ALT_MOD_CULTURE_ON_UNIT_DEFEAT' and Name = 'Percent
 
 
 -- Trung
-DELETE FROM TraitModifiers
-where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE' and TraitType = 'TRAIT_LEADER_TRUNG_TRAC_ABILITY';
 
-DELETE FROM TraitModifiers
-where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE_AT_WAR' and TraitType = 'TRAIT_LEADER_TRUNG_TRAC_ABILITY';
+UPDATE ModifierArguments
+SET Value = 20
+where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE' and Name = 'Percent';
+
+UPDATE ModifierArguments
+SET Value = 20
+where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE_AT_WAR' and Name = 'Percent';
 
 -- Frederick
 
@@ -69,3 +69,25 @@ WHERE TraitType = 'TRAIT_LEADER_FRIEDRICH_ALT_ABILITY' and ModifierId = 'FRIEDRI
 UPDATE DynamicModifiers
 SET EffectType = 'EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE'
 WHERE ModifierType = 'HATSHEPSUT_MOD_CULTURE_FROM_RESOURCES_TYPE';
+
+-- Isabella
+
+UPDATE ModifierArguments
+SET	Value = 100
+WHERE ModifierId = 'ISABELLA_MOD_DOUBLE_NATURAL_WONDERS_ABILITY' and Name = 'Percent';
+
+
+-- ASHOKA
+--
+-- DELETE FROM ModifierArguments
+-- WHERE ModifierType = 'ASHOKA_CONQUEROR_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER';
+--
+-- DELETE FROM Types
+-- WHERE Type = 'ASHOKA_CONQUEROR_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER_TYPE';
+--
+-- DELETE FROM DynamicModifiers
+-- WHERE ModifierType = 'ASHOKA_CONQUEROR_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER_TYPE';
+--
+-- DELETE FROM UnitAbilityModifiers
+-- WHERE ModifierType = 'ASHOKA_CONQUEROR_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER';
+

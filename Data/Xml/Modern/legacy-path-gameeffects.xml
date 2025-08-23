@@ -1,0 +1,9 @@
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_AGE_REWARD_ECONOMIC_VICTORY_UNLOCK_JMK_CLONE"
+              collection="COLLECTION_PLAYER_CAPITAL_CITY"
+              effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="UnitType">UNIT_JMK_CLONE</Argument>
+        <Argument name="AllowUniqueOverride">FALSE</Argument>
+    </Modifier>
+</GameEffects>

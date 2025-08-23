@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <AdvancedStartCardEffects>
+        <!-- Pantheon -->
+        <!-- 1 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_1" EffectType="EFFECT_PANTHEON_1" Amount="1"/>
+        <!-- 2 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_2" EffectType="EFFECT_PANTHEON_2" Amount="1"/>
+        <!-- 3 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_3" EffectType="EFFECT_PANTHEON_3" Amount="1"/>
+        <!-- 4 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_4" EffectType="EFFECT_PANTHEON_4" Amount="1"/>
+        <!-- 5 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_5" EffectType="EFFECT_PANTHEON_5" Amount="1"/>
+        <!-- 6 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_6" EffectType="EFFECT_PANTHEON_6" Amount="1"/>
+        <!-- 7 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_7" EffectType="EFFECT_PANTHEON_7" Amount="1"/>
+        <!-- 8 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_8" EffectType="EFFECT_PANTHEON_8" Amount="1"/>
+        <!-- 9 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_9" EffectType="EFFECT_PANTHEON_9" Amount="1"/>
+        <!-- 10 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_10" EffectType="EFFECT_PANTHEON_10" Amount="1"/>
+        <!-- 11 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_11" EffectType="EFFECT_PANTHEON_11" Amount="1"/>
+        <!-- 12 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_12" EffectType="EFFECT_PANTHEON_12" Amount="1"/>
+        <!-- 13 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_13" EffectType="EFFECT_PANTHEON_13" Amount="1"/>
+        <!-- 14 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_14" EffectType="EFFECT_PANTHEON_14" Amount="1"/>
+        <!-- 15 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_15" EffectType="EFFECT_PANTHEON_15" Amount="1"/>
+        <!-- 16 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_16" EffectType="EFFECT_PANTHEON_16" Amount="1"/>
+        <!-- 17 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_17" EffectType="EFFECT_PANTHEON_17" Amount="1"/>
+        <!-- 18 -->
+        <Row Age="AGE_EXPLORATION" EffectID="CARD_EFFECT_PANTHEON_18" EffectType="EFFECT_PANTHEON_18" Amount="1"/>
+
+    </AdvancedStartCardEffects>
+    <AdvancedStartCards>
+        <!-- Pantheon 1 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_1" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_1_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_1" CardEffectType1="CARD_EFFECT_PANTHEON_1" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" IndividualLimit="1" GroupLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 2 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_2" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_2_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_2" CardEffectType1="CARD_EFFECT_PANTHEON_2" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 3 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_3" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_3_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_3" CardEffectType1="CARD_EFFECT_PANTHEON_3" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 4 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_4" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_4_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_4" CardEffectType1="CARD_EFFECT_PANTHEON_4" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1"  IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 5 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_5" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_5_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_5" CardEffectType1="CARD_EFFECT_PANTHEON_5" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 6 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_6" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_6_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_6" CardEffectType1="CARD_EFFECT_PANTHEON_6" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 7 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_7" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_7_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_7" CardEffectType1="CARD_EFFECT_PANTHEON_7" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 8 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_8" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_8_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_8" CardEffectType1="CARD_EFFECT_PANTHEON_8" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 9 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_9" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_9_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_9" CardEffectType1="CARD_EFFECT_PANTHEON_9" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 10 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_10" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_10_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_10" CardEffectType1="CARD_EFFECT_PANTHEON_10" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 11 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_11" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_11_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_11" CardEffectType1="CARD_EFFECT_PANTHEON_11" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 12 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_12" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_12_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_12" CardEffectType1="CARD_EFFECT_PANTHEON_12" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 13 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_13" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_13_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_13" CardEffectType1="CARD_EFFECT_PANTHEON_13" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 14 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_14" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_14_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_14" CardEffectType1="CARD_EFFECT_PANTHEON_14" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 15 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_15" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_15_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_15" CardEffectType1="CARD_EFFECT_PANTHEON_15" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 16 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_16" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_16_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_16" CardEffectType1="CARD_EFFECT_PANTHEON_16" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 17 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_17" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_17_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_17" CardEffectType1="CARD_EFFECT_PANTHEON_17" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+        <!-- Pantheon 18 -->
+        <Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_PANTHEON_BONUS_18" Name="LOC_LEGACY_PATH_ANTIQUITY_CULTURE_GOLDEN_AGE_NAME" Description="LOC_LEGACY_PANTHEON_BONUS_18_DESCRIPTION" LimitID="CARD_AT_EXP_VICTORY_MILITARISTIC_FIRST" CultureCost="2" Unlock="UNLOCK_PANTHEON_BONUS_18" CardEffectType1="CARD_EFFECT_PANTHEON_18" CardEffectType2="CARD_EFFECT_AT_EXP_VICTORY_CULTURE_GOLDEN_AGE" GroupLimit="1" IndividualLimit="1" CategorySortOrder="10"/>
+    </AdvancedStartCards>
+    <Constructible_Adjacencies>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarUrbanHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarQuarterHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarWonderHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarMountainHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarNaturalWonderHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarVegetatedHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarCoastHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarLakeHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarResourceHappiness" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="AltarRiverHappiness" RequiresActivation="true"/>
+    </Constructible_Adjacencies>
+    <Adjacency_YieldChanges>
+        <Row ID="AltarUrbanHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+        <Row ID="AltarQuarterHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentUniqueQuarter="true"/>
+        <Row ID="AltarWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_WONDER"/>
+        <Row ID="AltarMountainHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+        <Row ID="AltarNaturalWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentNaturalWonder="true"/>
+        <Row ID="AltarVegetatedHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
+        <Row ID="AltarCoastHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
+        <Row ID="AltarLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+        <Row ID="AltarResourceHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
+        <Row ID="AltarRiverHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+        <Row ID="AltarUrbanHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+        <Row ID="AltarQuarterHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentUniqueQuarter="true"/>
+        <Row ID="AltarWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_WONDER"/>
+        <Row ID="AltarMountainHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
+        <Row ID="AltarNaturalWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentNaturalWonder="true"/>
+        <Row ID="AltarVegetatedHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
+        <Row ID="AltarCoastHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
+        <Row ID="AltarLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+        <Row ID="AltarResourceHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
+        <Row ID="AltarRiverHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
+    </Adjacency_YieldChanges>
+    <Constructible_WarehouseYields>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarCampGold" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarWoodcutterResourceGold" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarVegetatedFeatureGold" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarPastureFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarPlantationFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarDesertFloodplainFeatureFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarGrasslandFloodplainFeatureFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarPlainsFloodplainFeatureFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarTropicalFloodplainFeatureFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarTundraFloodplainFeatureFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarFlatTerrainFood" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarFishingBoatResourceProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarReefFeatureProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarColdReefFeatureProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarCoastTerrainProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarNavigableRiverProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarMineResourceProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarQuarryProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarRoughTerrainProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarWetFeatureProduction" RequiresActivation="true"/>
+        <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarHappinessOnResources" RequiresActivation="true"/>
+    </Constructible_WarehouseYields>
+    <Warehouse_YieldChanges>
+        <Row ID="PantheonAltarCampGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CAMP"/>
+        <Row ID="PantheonAltarWoodcutterResourceGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_WOODCUTTER_RESOURCE"/>
+        <Row ID="PantheonAltarVegetatedFeatureGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_VEGETATED"/>
+        <Row ID="PantheonAltarPastureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PASTURE"/>
+        <Row ID="PantheonAltarPlantationFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PLANTATION"/>
+        <Row ID="PantheonAltarFloodplainFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_FLOODPLAIN"/>
+        <Row ID="PantheonAltarDesertFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_DESERT_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarGrasslandFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_GRASSLAND_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarPlainsFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_PLAINS_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarTropicalFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_TROPICAL_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarTundraFloodplainFeatureFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" FeatureInCity="FEATURE_TUNDRA_FLOODPLAIN_MINOR"/>
+        <Row ID="PantheonAltarFlatTerrainFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_FLAT"/>
+        <Row ID="PantheonAltarFishingBoatResourceProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
+        <Row ID="PantheonAltarReefFeatureProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_REEF"/>
+        <Row ID="PantheonAltarColdReefFeatureProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureInCity="FEATURE_COLD_REEF"/>
+        <Row ID="PantheonAltarCoastTerrainProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_COAST"/>
+        <Row ID="PantheonAltarNavigableRiverProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" NavigableRiverInCity="true"/>
+        <Row ID="PantheonAltarMineResourceProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+        <Row ID="PantheonAltarQuarryProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
+        <Row ID="PantheonAltarRoughTerrainProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
+        <Row ID="PantheonAltarWetFeatureProduction" Age="AGE_EXPLORATION" YieldType="YIELD_PRODUCTION" YieldChange="1" FeatureClassInCity="FEATURE_CLASS_WET"/>
+        <Row ID="PantheonAltarHappinessOnResources" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" ResourceInCity="true"/>
+    </Warehouse_YieldChanges>
+</Database>

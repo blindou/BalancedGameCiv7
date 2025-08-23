@@ -57,18 +57,6 @@
         </SubjectRequirements>
         <Argument name="Amount">1</Argument>
     </Modifier>
-    <!-- ==================================================	-->
-    <!-- Trung -->
-    <!-- ==================================================	-->
-    <Modifier id="TRUNG_SCIENCE_PER_COMMANDER_LEVEL" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_UNIT_LEVEL">
-        <SubjectRequirements>
-            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-                <Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
-            </Requirement>
-        </SubjectRequirements>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
-    </Modifier>
 
     <!-- ==================================================	-->
     <!-- Pachacuti -->
@@ -104,5 +92,39 @@
 <!--        <Argument name="UnitAbilityType">ABILITY_FRIEDRICH_CULTURAL_INFANTRY</Argument>-->
 <!--        <Argument name="Amount">2</Argument>-->
 <!--    </Modifier>-->
-
+    <!-- ==================================================	-->
+    <!-- Ashoka, World Conqueror -->
+    <!-- ==================================================	-->
+    <Modifier id="ASHOKA_ALT_MOD_MILITARY_BUILDING_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="Tag">MILITARY</Argument>
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
+        <String context="Description">LOC_MOD_ASHOKA_ALT_MOD_MILITARY_BUILDING_ADJACENCY</String>
+    </Modifier>
+    <Modifier id="ASHOKA_ALT_MOD_MILITARY_BUILDING_ADJACENCY_GOLDEN_AGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
+        </SubjectRequirements>
+        <Argument name="Tag">MILITARY</Argument>
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">3</Argument>
+        <String context="Description">LOC_MOD_ASHOKA_ALT_MOD_MILITARY_BUILDING_ADJACENCY_GOLDEN_AGE</String>
+    </Modifier>
+    <Modifier id="ASHOKA_ALT_MOD_CAPTURED_SETTLEMENT_PRODUCTION_TEN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_YIELD" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+        <Argument name="Amount">10</Argument>
+    </Modifier>
+    <Modifier id="ASHOKA_ALT_MOD_CAPTURED_SETTLEMENT_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount">60</Argument>
+    </Modifier>
+    <Modifier id="HARRIET_TUBMAN_MOD_MIGRANT_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ON_SUCCESSFUL_UNDETECTED_ESPIONAGE_ACTION">
+        <Argument name="UnitType">UNIT_MIGRANT</Argument>
+    </Modifier>
 </GameEffects>

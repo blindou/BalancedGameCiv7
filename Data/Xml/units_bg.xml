@@ -33,10 +33,6 @@
              Inactive="true"
              Name="LOC_ABILITY_NAPOLEON_ALT_MOD_COMBAT_SLOWER_NAME_BG"
              Description="LOC_ABILITY_NAPOLEON_ALT_MOD_COMBAT_SLOWER_DESCRIPTION_BG"/>
-<!--        <Row UnitAbilityType="ABILITY_MACHIAVELLI_UNIT_CS"-->
-<!--             Inactive="true"-->
-<!--             Name="LOC_TRAIT_ABILITY_MACHIAVELLI_UNIT_CS_NAME"-->
-<!--             Description="LOC_ABILITY_ABILITY_MACHIAVELLI_UNIT_CS_DESCRIPTION"/>-->
     </UnitAbilities>
     <UnitAbilityModifiers>
         <Row UnitAbilityType="ABILITY_FRIEDRICH_SCIENCE_INFANTRY"
@@ -49,8 +45,5 @@
              ModifierId="EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_LOCATION_BG"/>
         <Row UnitAbilityType="ABILITY_NAPOLEON_ALT_MOD_COMBAT_SLOWER"
              ModifierId="NAPOLEON_ALT_MOD_COMBAT_SLOWER_BG"/>
-<!--        <Row UnitAbilityType="ABILITY_MACHIAVELLI_UNIT_CS"-->
-<!--             ModifierId="MACHIAVELLI_UNIT_CS"/>-->
-
     </UnitAbilityModifiers>
 </Database>

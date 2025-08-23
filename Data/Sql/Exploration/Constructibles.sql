@@ -1,7 +1,7 @@
 -- Maya
 
 UPDATE ModifierArguments
-SET	Value = 52, Name = 'Amount'
+SET	Value = 34, Name = 'Amount'
 WHERE ModifierId = 'MOD_MAYA_UWAYBIL_KUH_PRODUCTION_ON_TECH_COMPLETED' and name = 'PercentCost';
 
 -- Hawaii

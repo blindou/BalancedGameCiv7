@@ -1,16 +1,7 @@
--- Russia
-
-DELETE FROM Modifiers
-WHERE ModifierId = 'ATTACH_MOD_PROSVESHCHENIE_CULTURE';
-
-DELETE FROM Modifiers
-WHERE ModifierId = 'ATTACH_MOD_PROSVESHCHENIE_SCIENCE';
+-- JAPAN
 
 UPDATE ModifierArguments
-SET	Value = 2
-WHERE ModifierId = 'ATTACH_MOD_PROSVESHCHENIE_CULTURE_TUNDRA' and Name = 'Amount';
+SET	Value = 30
+WHERE ModifierId = 'TRAIT_MOD_GOISSHIN_SCIENCE_ON_OVERBUILD' and Name = 'PercentCost';
 
-UPDATE ModifierArguments
-SET	Value = 2
-WHERE ModifierId = 'ATTACH_MOD_PROSVESHCHENIE_SCIENCE_TUNDRA' and Name = 'Amount';
 

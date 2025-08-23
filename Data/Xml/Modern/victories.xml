@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <AgeProgressionRewards>
+        <Row AgeProgressionRewardType="AGE_REWARD_UNLOCK_JMK_CLONE"
+             ModifierId="MOD_AGE_REWARD_ECONOMIC_VICTORY_UNLOCK_JMK_CLONE"
+             Name="LOC_AGE_REWARD_UNLOCK_JOHN_MAYNARD_KEYNES_NAME"
+             Description="LOC_AGE_REWARD_UNLOCK_JOHN_MAYNARD_KEYNES_DESCRIPTION"
+             icon="AGE_REWARD_LEGACY_POINT_ECONOMIC"/>
+    </AgeProgressionRewards>
+
+    <AgeProgressionMilestoneRewards>
+        <Row AgeProgressionMilestoneType="MODERN_ECONOMIC_MILESTONE_3"
+             AgeProgressionRewardType="AGE_REWARD_UNLOCK_JMK_CLONE"
+             IsImmediate="true"/>
+    </AgeProgressionMilestoneRewards>
+</Database>

@@ -7,5 +7,29 @@
         <Row Tag="LOC_MODULE_BG_DESCRIPTION">
             <Text>Multiplayer Balanced mod for civilization 7</Text>
         </Row>
+        <Row Tag="STRENGTH_SLOWER_ATTACKING">
+            <Text>+3 Combat Strength when attacking slower units</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_EGYPT_COMBAT_PREVIEW">
+            <Text>+3 Combat Strength in friendly territory</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_ASHOKA_ALT_COMBAT_CELEBRATION_STRENGTH_PREVIEW">
+            <Text>+3 Combat Strength during celebrations</Text>
+        </Row>
+        <Row Tag="LOC_MOD_HI_KOI_RIVER_COMBAT_PREVIEW">
+            <Text>+2 Combat Strength when adjacent to rivers</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_LEADER_ASHOKA_ALT_MOD_COMBAT_STRENGTH_NAME">
+            <Text>Celebration Combat Strength</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_ASHOKA_ALT_MOD_COMBAT_STRENGTH_DESCRIPTION">
+            <Text>+3 Combat Strength during celebrations in hostile territory</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_NAME_BG">
+            <Text>Friendly Territory Combat Strength</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_EGYPT_FRIENDLY_TERRITORY_COMBAT_STRENGTH_DESCRIPTION_BG">
+            <Text>+3 Combat Strength in friendly territory</Text>
+        </Row>
     </EnglishText>
 </Database>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Kinds>
+        <InsertOrIgnore Kind="KIND_UNLOCK"/>
+    </Kinds>
+    <Types>
+        <!-- Pantheon -->
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_1" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_2" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_3" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_4" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_5" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_6" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_7" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_8" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_9" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_10" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_11" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_12" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_13" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_14" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_15" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_16" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_17" Kind="KIND_UNLOCK"/>
+        <InsertOrIgnore Type="UNLOCK_PANTHEON_BONUS_18" Kind="KIND_UNLOCK"/>
+
+    </Types>
+    <Unlocks>
+        <!-- Pantheon -->
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_1"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_2"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_3"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_4"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_5"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_6"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_7"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_8"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_9"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_10"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_11"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_12"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_13"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_14"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_15"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_16"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_17"/>
+        <InsertOrIgnore UnlockType="UNLOCK_PANTHEON_BONUS_18"/>
+
+    </Unlocks>
+</Database>
