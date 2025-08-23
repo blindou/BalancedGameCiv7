@@ -8,7 +8,7 @@
     <!-- Define the turn segments with the specific time parameters -->
     <TurnSegments>
         <!-- MBG timer: 45 seconds base, 2 seconds per city, 2 seconds per unit -->
-        <Row TurnSegmentType="TURNSEG_SINGLEPHASE_MBG" Name="" Sound="Play_MP_Strategic_Turn_Start" AllowStrategicCommands="true" AllowTacticalCommands="true" TimeLimit_Base="60" TimeLimit_PerCity="2" TimeLimit_PerUnit="1.5"/>
+        <Row TurnSegmentType="TURNSEG_SINGLEPHASE_MBG" Name="" Sound="Play_MP_Strategic_Turn_Start" AllowStrategicCommands="true" AllowTacticalCommands="true" TimeLimit_Base="45" TimeLimit_PerCity="2" TimeLimit_PerUnit="2"/>
     </TurnSegments>
 
     <!-- Define the turn phases that combine the segments -->

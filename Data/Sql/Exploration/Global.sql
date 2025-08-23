@@ -11,5 +11,5 @@ WHERE DiplomacyActionType = 'DIPLOMACY_ACTION_ESPIONAGE_STEAL_CIVIC';
 -- Timer
 
 UPDATE TurnSegments
-SET TimeLimit_Base = 60
+SET TimeLimit_Base = 15
 WHERE TurnSegmentType = 'TURNSEG_SINGLEPHASE_MBG';
