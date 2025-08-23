@@ -101,16 +101,6 @@
         <Row ID="AltarLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
         <Row ID="AltarResourceHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
         <Row ID="AltarRiverHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
-        <Row ID="AltarUrbanHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
-        <Row ID="AltarQuarterHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentUniqueQuarter="true"/>
-        <Row ID="AltarWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_WONDER"/>
-        <Row ID="AltarMountainHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_MOUNTAIN"/>
-        <Row ID="AltarNaturalWonderHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentNaturalWonder="true"/>
-        <Row ID="AltarVegetatedHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
-        <Row ID="AltarCoastHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_COAST"/>
-        <Row ID="AltarLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-        <Row ID="AltarResourceHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
-        <Row ID="AltarRiverHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_NAVIGABLE_RIVER"/>
     </Adjacency_YieldChanges>
     <Constructible_WarehouseYields>
         <Row ConstructibleType="BUILDING_ALTAR" YieldChangeId="PantheonAltarCampGold" RequiresActivation="true"/>
