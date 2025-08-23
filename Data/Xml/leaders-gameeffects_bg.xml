@@ -57,18 +57,6 @@
         </SubjectRequirements>
         <Argument name="Amount">1</Argument>
     </Modifier>
-    <!-- ==================================================	-->
-    <!-- Trung -->
-    <!-- ==================================================	-->
-    <Modifier id="TRUNG_SCIENCE_PER_COMMANDER_LEVEL" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_UNIT_LEVEL">
-        <SubjectRequirements>
-            <Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-                <Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
-            </Requirement>
-        </SubjectRequirements>
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
-    </Modifier>
 
     <!-- ==================================================	-->
     <!-- Pachacuti -->

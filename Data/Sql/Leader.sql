@@ -44,11 +44,14 @@ WHERE ModifierId = 'NAPOLEON_ALT_MOD_CULTURE_ON_UNIT_DEFEAT' and Name = 'Percent
 
 
 -- Trung
-DELETE FROM TraitModifiers
-where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE' and TraitType = 'TRAIT_LEADER_TRUNG_TRAC_ABILITY';
 
-DELETE FROM TraitModifiers
-where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE_AT_WAR' and TraitType = 'TRAIT_LEADER_TRUNG_TRAC_ABILITY';
+UPDATE ModifierArguments
+SET Value = 20
+where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE' and Name = 'Percent';
+
+UPDATE ModifierArguments
+SET Value = 20
+where ModifierId = 'TRUNG_TRAC_MOD_TROPICAL_SCIENCE_AT_WAR' and Name = 'Percent';
 
 -- Frederick
 

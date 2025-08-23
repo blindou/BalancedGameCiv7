@@ -434,7 +434,7 @@ where Tag = 'LOC_UNIT_JAGUAR_SLAYER_DESCRIPTION' and Language = 'en_US';
 -- buildings
 
 UPDATE LocalizedText
-SET Text = '[icon:CIVILIZATION_MAYA] Maya [icon:CITY_UNIQUE_QUARTER] Unique Quarter. Created by constructing the Jalaw and K''uh Nah in the same [icon:CITY_URBAN] District. Every time you research a [icon:RADIAL_TECH] Technology, this Settlement gains 13 [icon:YIELD_PRODUCTION] Production in Antiquity, 26 [icon:YIELD_PRODUCTION] in Exploration and 52 [icon:YIELD_PRODUCTION] in Modern.'
+SET Text = '[icon:CIVILIZATION_MAYA] Maya [icon:CITY_UNIQUE_QUARTER] Unique Quarter. Created by constructing the Jalaw and K''uh Nah in the same [icon:CITY_URBAN] District. Every time you research a [icon:RADIAL_TECH] Technology, this Settlement gains 9 [icon:YIELD_PRODUCTION] Production in Antiquity, 17 [icon:YIELD_PRODUCTION] in Exploration and 34 [icon:YIELD_PRODUCTION] in Modern.'
 where Tag = 'LOC_QUARTER_UWAYBIL_KUH_DESCRIPTION' and Language = 'en_US';
 
 UPDATE LocalizedText
@@ -848,3 +848,15 @@ where Tag = 'LOC_TRADITION_MIHISTU_DESCRIPTION' and Language = 'en_US';
 UPDATE LocalizedText
 SET Text = '+3 [icon:YIELD_PRODUCTION] Production and [icon:YIELD_FOOD] Food in Settlements [icon:NOTIFICATION_CITY_DISTRICT_CONTROL_LOST] not founded by you.'
 where Tag = 'LOC_TRADITION_GIRRU_DESCRIPTION' and Language = 'en_US';
+
+-- Modern
+
+-- Meiji Japan
+
+UPDATE LocalizedText
+SET Text = 'When you Overbuild a Building, gain [icon:YIELD_SCIENCE] Science equal to 30% of the Building''s Production cost.'
+where Tag = 'LOC_CIVILIZATION_MEIJI_DESCRIPTION' and Language = 'en_US';
+
+UPDATE LocalizedText
+SET Text = '[BLIST][LI]When you [B]Overbuild [/B]a Building, gain [icon:YIELD_SCIENCE] [B]Science [/B]equal to [B]30% [/B]of the Building''s Production cost.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Dogo Onsen[/B].[/LIST]'
+where Tag = 'LOC_TRAIT_MEIJI_ABILITY_DESCRIPTION' and Language = 'en_US';
