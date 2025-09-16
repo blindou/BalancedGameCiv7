@@ -107,9 +107,9 @@ VALUES ('LEADER_JOSE_RIZAL', 'RESOURCE_WINE', 75);
 INSERT INTO StartBiasTerrains (LeaderType, TerrainType, Score)
 VALUES ('LEADER_PACHACUTI', 'TERRAIN_MOUNTAIN', 2000);
 
--- Trung Trac: T3 Tropic + T4 Vegetated
+-- Trung Trac: T2 Tropic + T4 Vegetated
 INSERT INTO StartBiasBiomes (LeaderType, BiomeType, Score)
-VALUES ('LEADER_TRUNG_TRAC', 'BIOME_TROPICAL', 25);
+VALUES ('LEADER_TRUNG_TRAC', 'BIOME_TROPICAL', 75);
 
 INSERT INTO StartBiasFeatureClasses (LeaderType, FeatureClassType, Score)
 VALUES ('LEADER_TRUNG_TRAC', 'FEATURE_CLASS_VEGETATED', 10);
